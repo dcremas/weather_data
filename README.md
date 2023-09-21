@@ -1,34 +1,42 @@
 ### Title: Weather Data Portfolio Project, Full Data Pipeline.
 
 *To see the full codebase for this project:*
-[Link to my github account](https://github.com/dcremas/subscriber_portfolio)
+[Link to my github account](https://github.com/dcremas/weather_data)
 
 #### Description:
 
-#### A project intended to build out a full data pipeline for rich location/hourly weather metrics from 2005 - till the present day. The resulting Postres Database Data Warehouse can then be mined to discover and analyze on an ongoing basis.
+##### A project intended to build out a full data pipeline for rich location/hourly weather observation metrics from 2005 - till the present day. The purpose is to have a fully updatable Postgres Data Warehouse that can be mined for exploration and analytics on a regular basis.
+##### Purpose:
 
-##### Features:
+The ultimate purpose of this project was to produce a clean, historical Data Warehouse of by location, by hour observational weather data to be able to analyze the impact of baromtric pressure changes over time, and in comparison of locations.  The data  warehouse is to serve as the main repository of information to be able to explore and analyze. 
 
-- Utilizing Jupyter notebooks and the pandas python library to expolore, clean and transform datasets.
-- Use Python to automate data cleaning and transformation using the unittest built-in module and also error logging utilizing the logging module.
-- Harness the sqlite3 module within Python to access data from a relational database, and then produce an analytic ready data warehouse.
-- Using Bash scripts to automate file management and run scripts.
+##### Data Pipeline Process:
+
+- Access a rich set of historical by year/by location csv files from the NOAA remote repository.
+- Utilizing Python scripts to ingest the historical files onto my local computer, grabbing only what is necessary for the Data Warehouse.
+- Build out Python scripts to fully clean and transform the data so that it is ready for the Data Warehouse.
+- Harness the full capabilities of SQLAlchemy and the SQLAlchemy ORM to create the schemas for the Postgres Relational Database.
+- Create SQLAlchemy sessions to take the cleaned data and commit to the Postgres Database.
+- Utilize Jupyter notebooks and the pandas and plotly libraries to transform the data from the Warehouse into rich visualizations.
 
 ##### Technologies:
 
 1. Python and various standard library modules.
 2. The Pandas and Numpy third-party packages.
-3. Sqlite databases.
+3. SQLAlchemy and SQLAlchemy ORM.
+3. Postgres database.
 4. Knowledge of data cleaning and tidying.
+5. Advanced SQL techniques including: CTE's, Window Functions and CASE Statements for data analysis and aggregation.
 5. Command Line and Bash Scripting.
 
 ##### Folder Structure:
 
-Main Level: Includes the python, testing and bash scripts as well as the folders for the following:
+Main Level: Includes the python scripts, jupyter notebook and bash scripts as well as the folders for the following:
 
-- /logs - contains the logs for the testing and main production scripts.
-- /data_dev - the repository for the main development database and csv file.
-- /data_prod - the final location for the sqlite analytics database and csv file.
+- /metadata - helper files created to assist in querying the Data Warehouse.
+- /output_files csv files used for data exploration.
+- /sql - scripts produced for analysis and output.
+- /yearly_files - not committed to the GitHub repo due to amount and size.
 
 ##### Running the Bash Script:
 
