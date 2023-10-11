@@ -1,0 +1,113 @@
+station|station_name|ctry|state|lat|lon|request_url
+70381025309|JUNEAU INTERNATIONAL|US|AK|58.354|-134.556|https://api.weather.gov/gridpoints/AJK/190,164/forecast
+70261026411|FAIRBANKS INTERNATIONAL|US|AK|64.803|-147.876|https://api.weather.gov/gridpoints/AFG/490,118/forecast
+70273026451|TED STEVENS ANCHORAGE INTL|US|AK|61.169|-150.028|https://api.weather.gov/gridpoints/AER/122,234/forecast
+72228013876|BIRMINGHAM INTERNATIONAL AIRPORT|US|AL|33.565|-86.745|https://api.weather.gov/gridpoints/BMX/61,87/forecast
+72323003856|HUNTSVILLE INTL/C.T.JONES FIELD AIRPORT|US|AL|34.644|-86.786|https://api.weather.gov/gridpoints/HUN/56,38/forecast
+72340503930|LITTLE ROCK AFB AIRPORT|US|AR|34.917|-92.15|https://api.weather.gov/gridpoints/LZK/87,80/forecast
+72278023183|PHOENIX SKY HARBOR INTL AIRPORT|US|AZ|33.428|-112.004|https://api.weather.gov/gridpoints/PSR/161,57/forecast
+72274023160|TUCSON INTERNATIONAL AIRPORT|US|AZ|32.132|-110.956|https://api.weather.gov/gridpoints/TWC/91,45/forecast
+72483993225|SACRAMENTO INTL AIRPORT|US|CA|38.701|-121.595|https://api.weather.gov/gridpoints/STO/39,74/forecast
+72290023188|SAN DIEGO INTERNATIONAL AIRPORT|US|CA|32.734|-117.183|https://api.weather.gov/gridpoints/SGX/56,15/forecast
+72295023174|LOS ANGELES INTERNATIONAL AIRPORT|US|CA|33.938|-118.387|https://api.weather.gov/gridpoints/LOX/149,41/forecast
+72297793184|J. WAYNE APT-ORANGE CO APT|US|CA|33.68|-117.867|https://api.weather.gov/gridpoints/SGX/38,60/forecast
+72494023234|SAN FRANCISCO INTERNATIONAL AIRPORT|US|CA|37.62|-122.366|https://api.weather.gov/gridpoints/MTR/85,98/forecast
+74704003102|ONTARIO INTERNATIONAL ARPT|US|CA|34.053|-117.577|https://api.weather.gov/gridpoints/SGX/51,75/forecast
+72392523190|SANTA BARBARA MUNICIPAL AIRPORT|US|CA|34.424|-119.842|https://api.weather.gov/gridpoints/LOX/100,72/forecast
+72389093193|FRESNO YOSEMITE INTERNATIONAL AIRPORT|US|CA|36.78|-119.72|https://api.weather.gov/gridpoints/HNX/55,101/forecast
+72565003017|DENVER INTERNATIONAL AIRPORT|US|CO|39.847|-104.656|https://api.weather.gov/gridpoints/BOU/75,66/forecast
+72466093037|CITY OF COLORADO SPRINGS MUNICIPAL AP|US|CO|38.809|-104.689|https://api.weather.gov/gridpoints/PUB/94,90/forecast
+72508014740|BRADLEY INTERNATIONAL AIRPORT|US|CT|41.937|-72.682|https://api.weather.gov/gridpoints/BOX/20,61/forecast
+72211012842|TAMPA INTERNATIONAL AIRPORT|US|FL|27.963|-82.54|https://api.weather.gov/gridpoints/TBW/68,98/forecast
+72202012839|MIAMI INTERNATIONAL AIRPORT|US|FL|25.788|-80.317|https://api.weather.gov/gridpoints/MFL/105,51/forecast
+72205012815|ORLANDO INTERNATIONAL AIRPORT|US|FL|28.418|-81.324|https://api.weather.gov/gridpoints/MLB/29,63/forecast
+72206013889|JACKSONVILLE INTERNATIONAL AIRPORT|US|FL|30.495|-81.694|https://api.weather.gov/gridpoints/JAX/64,72/forecast
+72222313899|PENSACOLA REGIONAL AIRPORT|US|FL|30.476|-87.186|https://api.weather.gov/gridpoints/MOB/85,60/forecast
+74783012849|FT LAUD/HOLLYWOOD INTL APT|US|FL|26.079|-80.162|https://api.weather.gov/gridpoints/MFL/109,64/forecast
+72207003822|SAVANNAH/HILTON HEAD INTL AIRPORT|US|GA|32.131|-81.202|https://api.weather.gov/gridpoints/CHS/43,43/forecast
+72219013874|HARTSFIELD-JACKSON ATLANTA INTL AP|US|GA|33.63|-84.442|https://api.weather.gov/gridpoints/FFC/49,81/forecast
+91182022521|HONOLULU INTERNATIONAL AIRPORT|US|HI|21.324|-157.939|https://api.weather.gov/gridpoints/HFO/151,145/forecast
+91190022516|KAHULUI AIRPORT|US|HI|20.889|-156.435|https://api.weather.gov/gridpoints/HFO/214,126/forecast
+91165022536|LIHUE AIRPORT|US|HI|21.98|-159.339|https://api.weather.gov/gridpoints/HFO/92,175/forecast
+72545014990|EASTERN IOWA REGIONAL AIRPORT|US|IA|41.883|-91.725|https://api.weather.gov/gridpoints/DVN/28,82/forecast
+72546014933|DES MOINES INTERNATIONAL AIRPORT|US|IA|41.534|-93.653|https://api.weather.gov/gridpoints/DMX/72,47/forecast
+72681024131|BOISE AIR TERMINAL/GOWEN FD AIRPORT|US|ID|43.567|-116.241|https://api.weather.gov/gridpoints/BOI/132,84/forecast
+72534014819|CHICAGO MIDWAY INTL ARPT|US|IL|41.784|-87.755|https://api.weather.gov/gridpoints/LOT/72,68/forecast
+72439093822|ABRAHAM LINCOLN CAPITAL AIRPORT|US|IL|39.845|-89.684|https://api.weather.gov/gridpoints/ILX/46,58/forecast
+72530094846|CHICAGO O'HARE INTERNATIONAL AIRPORT|US|IL|41.96|-87.932|https://api.weather.gov/gridpoints/LOT/65,76/forecast
+72438093819|INDIANAPOLIS INTERNATIONAL AIRPORT|US|IN|39.725|-86.282|https://api.weather.gov/gridpoints/IND/54,67/forecast
+72533014827|FORT WAYNE INTERNATIONAL AIRPORT|US|IN|40.972|-85.206|https://api.weather.gov/gridpoints/IWX/67,33/forecast
+72450003928|WICHITA EISENHOWER NATIONAL|US|KS|37.648|-97.43|https://api.weather.gov/gridpoints/ICT/59,32/forecast
+72423093821|LOUISVILLE INTL-STANDIFORD FIELD AP|US|KY|38.177|-85.731|https://api.weather.gov/gridpoints/LMK/51,74/forecast
+72421093814|CINCINNATI/NORTHERN KENTUCKY INTL AP|US|KY|39.044|-84.672|https://api.weather.gov/gridpoints/ILN/30,35/forecast
+72231012916|LOUIS ARMSTRONG NEW ORLEANS INTL AP|US|LA|29.998|-90.278|https://api.weather.gov/gridpoints/LIX/60,90/forecast
+72248013957|SHREVEPORT REGIONAL AIRPORT|US|LA|32.447|-93.824|https://api.weather.gov/gridpoints/SHV/74,66/forecast
+72509014739|GEN E L LOGAN INTERNATIONAL AIRPORT|US|MA|42.361|-71.01|https://api.weather.gov/gridpoints/BOX/73,90/forecast
+72406093721|BALTIMORE-WASHINGTON INTL AIRPORT|US|MD|39.173|-76.684|https://api.weather.gov/gridpoints/LWX/107,85/forecast
+74594013705|ANDREWS AIR FORCE BASE AIRPORT|US|MD|38.817|-76.867|https://api.weather.gov/gridpoints/LWX/103,69/forecast
+72606014764|PORTLAND INTERNATIONAL JETPORT AP|US|ME|43.642|-70.304|https://api.weather.gov/gridpoints/GYX/75,58/forecast
+72635094860|GERALD R FORD INTERNATIONAL AIRPORT|US|MI|42.882|-85.523|https://api.weather.gov/gridpoints/GRR/46,44/forecast
+72537094847|DETROIT METRO WAYNE COUNTY AIRPORT|US|MI|42.231|-83.331|https://api.weather.gov/gridpoints/DTX/57,28/forecast
+72745014913|DULUTH INTERNATIONAL AIRPORT|US|MN|46.844|-92.187|https://api.weather.gov/gridpoints/DLH/88,72/forecast
+72658014922|MINNEAPOLIS-ST PAUL INTERNATIONAL AP|US|MN|44.885|-93.231|https://api.weather.gov/gridpoints/MPX/110,68/forecast
+72434013994|LAMBERT-ST LOUIS INTERNATIONAL AP|US|MO|38.752|-90.373|https://api.weather.gov/gridpoints/LSX/89,80/forecast
+72446003947|KANSAS CITY INTERNATIONAL AIRPORT|US|MO|39.297|-94.731|https://api.weather.gov/gridpoints/EAX/38,60/forecast
+74757093874|GULFPORT-BILOXI INTL ARPT|US|MS|30.412|-89.081|https://api.weather.gov/gridpoints/LIX/104,110/forecast
+72235003940|JACKSON INTERNATIONAL AIRPORT|US|MS|32.32|-90.078|https://api.weather.gov/gridpoints/JAN/80,64/forecast
+72679724132|GALLATIN FIELD AIRPORT|US|MT|45.788|-111.162|https://api.weather.gov/gridpoints/TFX/93,63/forecast
+72677024033|BILLINGS LOGAN INTERNATIONAL AIRPORT|US|MT|45.807|-108.546|https://api.weather.gov/gridpoints/BYZ/101,93/forecast
+72314013881|CHARLOTTE/DOUGLAS INTERNATIONAL AP|US|NC|35.223|-80.954|https://api.weather.gov/gridpoints/GSP/115,64/forecast
+72317013723|PIEDMONT TRIAD INTERNATIONAL AIRPORT|US|NC|36.097|-79.943|https://api.weather.gov/gridpoints/RAH/26,66/forecast
+72302013748|WILMINGTON INTERNATIONAL AIRPORT|US|NC|34.267|-77.9|https://api.weather.gov/gridpoints/ILM/91,70/forecast
+72306013722|RALEIGH-DURHAM INTERNATIONAL AP|US|NC|35.892|-78.782|https://api.weather.gov/gridpoints/RAH/69,62/forecast
+72753014914|HECTOR INTERNATIONAL AIRPORT|US|ND|46.924|-96.812|https://api.weather.gov/gridpoints/FGF/99,59/forecast
+72550014942|EPPLEY AIRFIELD AIRPORT|US|NE|41.312|-95.902|https://api.weather.gov/gridpoints/OAX/84,62/forecast
+72551014939|LINCOLN MUNICIPAL AIRPORT|US|NE|40.848|-96.765|https://api.weather.gov/gridpoints/OAX/54,41/forecast
+74394514710|MANCHESTER AIRPORT|US|NH|42.93|-71.436|https://api.weather.gov/gridpoints/GYX/43,19/forecast
+72407093730|ATLANTIC CITY INTERNATIONAL AIRPORT|US|NJ|39.452|-74.567|https://api.weather.gov/gridpoints/PHI/74,56/forecast
+72502014734|NEWARK LIBERTY INTERNATIONAL AP|US|NJ|40.683|-74.169|https://api.weather.gov/gridpoints/OKX/28,33/forecast
+72409514792|TRENTON MERCER AIRPORT|US|NJ|40.277|-74.816|https://api.weather.gov/gridpoints/PHI/60,92/forecast
+72365023050|ALBUQUERQUE INTL SUNPORT AIRPORT|US|NM|35.042|-106.615|https://api.weather.gov/gridpoints/ABQ/99,117/forecast
+72386023169|MCCARRAN INTERNATIONAL AIRPORT|US|NV|36.072|-115.163|https://api.weather.gov/gridpoints/VEF/121,94/forecast
+72488023185|RENO/TAHOE INTERNATIONAL AIRPORT|US|NV|39.508|-119.768|https://api.weather.gov/gridpoints/REV/46,105/forecast
+72518014735|ALBANY INTERNATIONAL AIRPORT|US|NY|42.747|-73.799|https://api.weather.gov/gridpoints/ALY/70,67/forecast
+72503014732|LA GUARDIA AIRPORT|US|NY|40.779|-73.88|https://api.weather.gov/gridpoints/OKX/37,39/forecast
+72519014771|SYRACUSE HANCOCK INTERNATIONAL AP|US|NY|43.111|-76.104|https://api.weather.gov/gridpoints/BGM/53,102/forecast
+72528014733|BUFFALO NIAGARA INTERNATIONAL AP|US|NY|42.94|-78.736|https://api.weather.gov/gridpoints/BUF/40,50/forecast
+72529014768|GREATER ROCHESTER INTERNATIONAL AP|US|NY|43.117|-77.675|https://api.weather.gov/gridpoints/BUF/75,63/forecast
+74486094789|JOHN F KENNEDY INTERNATIONAL AIRPORT|US|NY|40.639|-73.764|https://api.weather.gov/gridpoints/OKX/42,33/forecast
+72428014821|PORT COLUMBUS INTERNATIONAL AIRPORT|US|OH|39.991|-82.877|https://api.weather.gov/gridpoints/ILN/89,83/forecast
+72524014820|CLEVELAND-HOPKINS INTERNATIONAL AP|US|OH|41.406|-81.852|https://api.weather.gov/gridpoints/CLE/78,60/forecast
+72429093815|J.M.COX DAYTON INTERNATIONAL AIRPORT|US|OH|39.906|-84.219|https://api.weather.gov/gridpoints/ILN/43,75/forecast
+72356013968|TULSA INTERNATIONAL AIRPORT|US|OK|36.199|-95.878|https://api.weather.gov/gridpoints/TSA/45,107/forecast
+72353013967|WILL ROGERS WORLD AIRPORT|US|OK|35.388|-97.6|https://api.weather.gov/gridpoints/OUN/95,90/forecast
+72693024221|MAHLON SWEET FIELD AIRPORT|US|OR|44.133|-123.216|https://api.weather.gov/gridpoints/PQR/82,44/forecast
+72698024229|PORTLAND INTERNATIONAL AIRPORT|US|OR|45.596|-122.609|https://api.weather.gov/gridpoints/PQR/116,107/forecast
+72408013739|PHILADELPHIA INTERNATIONAL AIRPORT|US|PA|39.873|-75.227|https://api.weather.gov/gridpoints/PHI/48,72/forecast
+72399014711|HARRISBURG INTERNATIONAL AIRPORT|US|PA|40.196|-76.772|https://api.weather.gov/gridpoints/CTP/110,35/forecast
+72520094823|PITTSBURGH INTERNATIONAL AIRPORT|US|PA|40.485|-80.214|https://api.weather.gov/gridpoints/PBZ/70,67/forecast
+72507014765|THEODORE F GREEN STATE AIRPORT|US|RI|41.723|-71.432|https://api.weather.gov/gridpoints/BOX/64,59/forecast
+72208013880|CHARLESTON AFB/INTERNATIONAL AIRPORT|US|SC|32.899|-80.041|https://api.weather.gov/gridpoints/CHS/82,81/forecast
+72312003870|GREENVILLE-SPARTANBURG INTL AIRPORT|US|SC|34.906|-82.213|https://api.weather.gov/gridpoints/GSP/71,46/forecast
+72651014944|JOE FOSS FIELD AIRPORT|US|SD|43.578|-96.754|https://api.weather.gov/gridpoints/FSD/97,66/forecast
+72334013893|MEMPHIS INTERNATIONAL AIRPORT|US|TN|35.056|-89.986|https://api.weather.gov/gridpoints/MEG/45,63/forecast
+72327013897|NASHVILLE INTERNATIONAL AIRPORT|US|TN|36.111|-86.688|https://api.weather.gov/gridpoints/OHX/54,55/forecast
+72270023044|EL PASO INTERNATIONAL AIRPORT|US|TX|31.812|-106.377|https://api.weather.gov/gridpoints/EPZ/104,58/forecast
+72254013904|AUSTIN-BERGSTROM INTL AIRPORT|US|TX|30.183|-97.68|https://api.weather.gov/gridpoints/EWX/158,87/forecast
+72253012921|SAN ANTONIO INTERNATIONAL AIRPORT|US|TX|29.544|-98.484|https://api.weather.gov/gridpoints/EWX/127,60/forecast
+72259003927|DALLAS/FT WORTH INTERNATIONAL AP|US|TX|32.897|-97.022|https://api.weather.gov/gridpoints/FWD/81,109/forecast
+72243012960|G BUSH INTERCONTINENTAL AP/HOUSTON AP|US|TX|29.984|-95.361|https://api.weather.gov/gridpoints/HGX/65,106/forecast
+72572024127|SALT LAKE CITY INTERNATIONAL AIRPORT|US|UT|40.771|-111.965|https://api.weather.gov/gridpoints/SLC/98,176/forecast
+72401693736|CHARLOTTESVILLE ALBEMARLE ARPT|US|VA|38.137|-78.455|https://api.weather.gov/gridpoints/LWX/51,31/forecast
+72403093738|WASHINGTON DULLES INTERNATIONAL AP|US|VA|38.935|-77.447|https://api.weather.gov/gridpoints/LWX/82,71/forecast
+72308693741|NWPT NEWS/WIMBURG INTL APT|US|VA|37.132|-76.494|https://api.weather.gov/gridpoints/AKQ/81,63/forecast
+72308013737|NORFOLK INTERNATIONAL AIRPORT|US|VA|36.904|-76.193|https://api.weather.gov/gridpoints/AKQ/93,55/forecast
+72401013740|RICHMOND INTERNATIONAL AIRPORT|US|VA|37.512|-77.323|https://api.weather.gov/gridpoints/AKQ/50,76/forecast
+72405013743|RONALD REAGAN WASHINGTON NATL AP|US|VA|38.847|-77.035|https://api.weather.gov/gridpoints/LWX/97,69/forecast
+72617014742|BURLINGTON INTERNATIONAL AIRPORT|US|VT|44.468|-73.15|https://api.weather.gov/gridpoints/BTV/91,56/forecast
+72785024157|SPOKANE INTERNATIONAL AIRPORT|US|WA|47.622|-117.528|https://api.weather.gov/gridpoints/OTX/138,90/forecast
+72793024233|SEATTLE-TACOMA INTERNATIONAL AIRPORT|US|WA|47.445|-122.314|https://api.weather.gov/gridpoints/SEW/124,60/forecast
+72645014898|AUSTIN STRAUBEL INTERNATIONAL AP|US|WI|44.48|-88.137|https://api.weather.gov/gridpoints/GRB/75,30/forecast
+72640014839|GENERAL MITCHELL INTERNATIONAL AP|US|WI|42.955|-87.905|https://api.weather.gov/gridpoints/MKX/89,61/forecast
+72414013866|YEAGER AIRPORT|US|WV|38.38|-81.591|https://api.weather.gov/gridpoints/RLX/64,69/forecast
+72569024089|NATRONA COUNTY INTERNATIONAL AP|US|WY|42.898|-106.474|https://api.weather.gov/gridpoints/RIW/183,98/forecast

@@ -1,0 +1,452 @@
+ year | state |              station_name               | jan_cnt | feb_cnt | mar_cnt | apr_cnt | may_cnt | jun_cnt | jul_cnt | aug_cnt | sep_cnt | oct_cnt | nov_cnt | dec_cnt | ttl_year 
+------+-------+-----------------------------------------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+----------
+ 2020 | CO    | CITY OF COLORADO SPRINGS MUNICIPAL AP   |      12 |       8 |       5 |       3 |       2 |       1 |       0 |       0 |       1 |       7 |      10 |      11 |       60
+ 2020 | ME    | PORTLAND INTERNATIONAL JETPORT AP       |       6 |      11 |       7 |       4 |       2 |       0 |       0 |       2 |       3 |       3 |       6 |       7 |       51
+ 2020 | NH    | MANCHESTER AIRPORT                      |       7 |      12 |       8 |       3 |       1 |       0 |       0 |       1 |       3 |       1 |       6 |       9 |       51
+ 2020 | MA    | GEN E L LOGAN INTERNATIONAL AIRPORT     |       8 |      10 |       9 |       4 |       1 |       0 |       0 |       1 |       3 |       1 |       6 |       6 |       49
+ 2020 | ND    | HECTOR INTERNATIONAL AIRPORT            |       7 |       7 |       5 |       1 |       0 |       2 |       1 |       1 |       3 |       8 |       4 |       6 |       45
+ 2020 | CO    | DENVER INTERNATIONAL AIRPORT            |      11 |       6 |       4 |       0 |       3 |       1 |       0 |       0 |       1 |       7 |       7 |       4 |       44
+ 2020 | VT    | BURLINGTON INTERNATIONAL AIRPORT        |       6 |       8 |       6 |       4 |       1 |       0 |       0 |       2 |       3 |       1 |       8 |       4 |       43
+ 2020 | RI    | THEODORE F GREEN STATE AIRPORT          |       6 |       9 |       5 |       4 |       1 |       0 |       0 |       1 |       3 |       1 |       6 |       6 |       42
+ 2020 | AK    | TED STEVENS ANCHORAGE INTL              |       2 |       7 |       6 |       0 |       0 |       0 |       0 |       2 |       4 |       5 |      10 |       5 |       41
+ 2020 | WY    | NATRONA COUNTY INTERNATIONAL AP         |       7 |       4 |       4 |       1 |       3 |       0 |       0 |       0 |       0 |       9 |       9 |       4 |       41
+ 2020 | CT    | BRADLEY INTERNATIONAL AIRPORT           |       7 |       8 |       6 |       3 |       1 |       0 |       0 |       1 |       3 |       0 |       6 |       5 |       40
+ 2020 | NY    | ALBANY INTERNATIONAL AIRPORT            |       6 |       8 |       6 |       2 |       1 |       0 |       0 |       1 |       3 |       1 |       6 |       5 |       39
+ 2020 | AK    | JUNEAU INTERNATIONAL                    |       6 |       8 |       3 |       3 |       0 |       0 |       0 |       2 |       2 |       3 |       9 |       2 |       38
+ 2020 | NJ    | ATLANTIC CITY INTERNATIONAL AIRPORT     |       4 |       7 |       4 |       5 |       0 |       0 |       0 |       1 |       1 |       1 |       6 |       7 |       36
+ 2020 | NJ    | NEWARK LIBERTY INTERNATIONAL AP         |       5 |       6 |       4 |       4 |       0 |       0 |       0 |       1 |       3 |       1 |       6 |       5 |       35
+ 2020 | AK    | FAIRBANKS INTERNATIONAL                 |       2 |       7 |       6 |       0 |       0 |       0 |       0 |       1 |       4 |       4 |       7 |       3 |       34
+ 2020 | NJ    | TRENTON MERCER AIRPORT                  |       4 |       5 |       4 |       4 |       0 |       0 |       0 |       1 |       2 |       1 |       6 |       7 |       34
+ 2020 | NY    | JOHN F KENNEDY INTERNATIONAL AIRPORT    |       4 |       6 |       2 |       5 |       0 |       0 |       0 |       1 |       2 |       1 |       6 |       6 |       33
+ 2020 | NY    | SYRACUSE HANCOCK INTERNATIONAL AP       |       6 |       7 |       5 |       3 |       1 |       0 |       0 |       0 |       0 |       0 |       7 |       4 |       33
+ 2020 | PA    | PHILADELPHIA INTERNATIONAL AIRPORT      |       6 |       5 |       3 |       4 |       0 |       0 |       0 |       1 |       0 |       1 |       6 |       7 |       33
+ 2020 | NY    | BUFFALO NIAGARA INTERNATIONAL AP        |       6 |       6 |       6 |       3 |       0 |       0 |       0 |       0 |       0 |       0 |       7 |       5 |       33
+ 2020 | KS    | WICHITA EISENHOWER NATIONAL             |       8 |       4 |       5 |       3 |       2 |       1 |       0 |       0 |       0 |       3 |       3 |       3 |       32
+ 2020 | NY    | GREATER ROCHESTER INTERNATIONAL AP      |       5 |       7 |       6 |       3 |       0 |       0 |       0 |       0 |       0 |       0 |       6 |       5 |       32
+ 2020 | NE    | LINCOLN MUNICIPAL AIRPORT               |       8 |       5 |       4 |       2 |       0 |       0 |       0 |       0 |       0 |       4 |       5 |       4 |       32
+ 2020 | MT    | BILLINGS LOGAN INTERNATIONAL AIRPORT    |       4 |       6 |       2 |       2 |       2 |       1 |       0 |       0 |       0 |       6 |       6 |       3 |       32
+ 2020 | MN    | MINNEAPOLIS-ST PAUL INTERNATIONAL AP    |       6 |       5 |       3 |       0 |       1 |       0 |       1 |       1 |       2 |       4 |       5 |       4 |       32
+ 2020 | SD    | JOE FOSS FIELD AIRPORT                  |       7 |       6 |       4 |       1 |       0 |       0 |       0 |       0 |       1 |       4 |       5 |       4 |       32
+ 2020 | VA    | RONALD REAGAN WASHINGTON NATL AP        |       5 |       5 |       4 |       3 |       0 |       0 |       0 |       1 |       0 |       1 |       4 |       8 |       31
+ 2020 | NM    | ALBUQUERQUE INTL SUNPORT AIRPORT        |       7 |       6 |       2 |       2 |       0 |       0 |       0 |       0 |       1 |       1 |       4 |       8 |       31
+ 2020 | NY    | LA GUARDIA AIRPORT                      |       5 |       5 |       2 |       4 |       0 |       0 |       0 |       1 |       3 |       1 |       6 |       4 |       31
+ 2020 | MT    | GALLATIN FIELD AIRPORT                  |       6 |       4 |       0 |       1 |       1 |       0 |       0 |       0 |       0 |       7 |      10 |       2 |       31
+ 2020 | MN    | DULUTH INTERNATIONAL AIRPORT            |       6 |       4 |       1 |       2 |       0 |       0 |       1 |       1 |       3 |       6 |       3 |       3 |       30
+ 2020 | MD    | BALTIMORE-WASHINGTON INTL AIRPORT       |       5 |       5 |       3 |       3 |       0 |       0 |       0 |       1 |       0 |       1 |       4 |       7 |       29
+ 2020 | NE    | EPPLEY AIRFIELD AIRPORT                 |       7 |       4 |       5 |       2 |       0 |       0 |       1 |       0 |       0 |       3 |       3 |       4 |       29
+ 2020 | WI    | AUSTIN STRAUBEL INTERNATIONAL AP        |       5 |       3 |       3 |       0 |       0 |       1 |       0 |       1 |       2 |       6 |       4 |       3 |       28
+ 2020 | PA    | HARRISBURG INTERNATIONAL AIRPORT        |       3 |       5 |       3 |       3 |       0 |       0 |       0 |       0 |       1 |       1 |       4 |       7 |       27
+ 2020 | WA    | SEATTLE-TACOMA INTERNATIONAL AIRPORT    |       5 |       1 |       3 |       0 |       0 |       0 |       0 |       0 |       1 |       5 |       4 |       8 |       27
+ 2020 | WI    | GENERAL MITCHELL INTERNATIONAL AP       |       5 |       3 |       2 |       1 |       0 |       2 |       0 |       1 |       2 |       3 |       5 |       3 |       27
+ 2020 | VA    | CHARLOTTESVILLE ALBEMARLE ARPT          |       4 |       5 |       2 |       3 |       0 |       0 |       0 |       1 |       0 |       1 |       3 |       7 |       26
+ 2020 | VA    | WASHINGTON DULLES INTERNATIONAL AP      |       4 |       4 |       1 |       3 |       0 |       0 |       0 |       1 |       0 |       1 |       4 |       7 |       25
+ 2020 | VA    | RICHMOND INTERNATIONAL AIRPORT          |       3 |       4 |       1 |       3 |       0 |       0 |       0 |       1 |       0 |       1 |       4 |       8 |       25
+ 2020 | OH    | CLEVELAND-HOPKINS INTERNATIONAL AP      |       6 |       5 |       2 |       2 |       0 |       0 |       0 |       0 |       0 |       1 |       4 |       4 |       24
+ 2020 | MI    | GERALD R FORD INTERNATIONAL AIRPORT     |       7 |       4 |       2 |       1 |       0 |       0 |       0 |       0 |       2 |       2 |       3 |       3 |       24
+ 2020 | MI    | DETROIT METRO WAYNE COUNTY AIRPORT      |       4 |       6 |       4 |       1 |       0 |       0 |       0 |       0 |       0 |       2 |       3 |       4 |       24
+ 2020 | VA    | NWPT NEWS/WIMBURG INTL APT              |       3 |       3 |       1 |       3 |       0 |       0 |       0 |       1 |       0 |       1 |       4 |       7 |       23
+ 2020 | VA    | NORFOLK INTERNATIONAL AIRPORT           |       3 |       3 |       0 |       4 |       0 |       0 |       0 |       1 |       0 |       2 |       4 |       6 |       23
+ 2020 | IL    | CHICAGO O'HARE INTERNATIONAL AIRPORT    |       6 |       3 |       2 |       0 |       0 |       0 |       0 |       0 |       1 |       3 |       4 |       3 |       22
+ 2020 | OK    | WILL ROGERS WORLD AIRPORT               |       7 |       2 |       1 |       1 |       3 |       3 |       0 |       1 |       0 |       1 |       1 |       2 |       22
+ 2020 | IL    | CHICAGO MIDWAY INTL ARPT                |       5 |       3 |       2 |       0 |       0 |       1 |       0 |       0 |       1 |       3 |       4 |       3 |       22
+ 2020 | PA    | PITTSBURGH INTERNATIONAL AIRPORT        |       5 |       4 |       0 |       5 |       0 |       0 |       0 |       0 |       0 |       0 |       5 |       3 |       22
+ 2020 | MO    | KANSAS CITY INTERNATIONAL AIRPORT       |       7 |       2 |       2 |       1 |       0 |       1 |       0 |       0 |       0 |       0 |       4 |       4 |       21
+ 2020 | IA    | DES MOINES INTERNATIONAL AIRPORT        |       7 |       1 |       2 |       0 |       0 |       0 |       0 |       0 |       1 |       1 |       5 |       4 |       21
+ 2020 | NV    | RENO/TAHOE INTERNATIONAL AIRPORT        |       5 |       3 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       1 |       5 |       6 |       21
+ 2020 | IA    | EASTERN IOWA REGIONAL AIRPORT           |       5 |       1 |       2 |       0 |       0 |       0 |       0 |       0 |       1 |       2 |       5 |       4 |       20
+ 2020 | OH    | PORT COLUMBUS INTERNATIONAL AIRPORT     |       6 |       3 |       0 |       3 |       0 |       0 |       0 |       0 |       0 |       0 |       4 |       4 |       20
+ 2020 | WA    | SPOKANE INTERNATIONAL AIRPORT           |       2 |       2 |       1 |       0 |       2 |       0 |       0 |       0 |       0 |       4 |       5 |       4 |       20
+ 2020 | OH    | J.M.COX DAYTON INTERNATIONAL AIRPORT    |       6 |       5 |       0 |       2 |       1 |       0 |       0 |       0 |       1 |       0 |       2 |       2 |       19
+ 2020 | IN    | FORT WAYNE INTERNATIONAL AIRPORT        |       5 |       4 |       1 |       1 |       0 |       0 |       0 |       0 |       1 |       2 |       2 |       3 |       19
+ 2020 | TX    | EL PASO INTERNATIONAL AIRPORT           |       5 |       3 |       3 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       2 |       5 |       19
+ 2020 | KY    | CINCINNATI/NORTHERN KENTUCKY INTL AP    |       5 |       6 |       0 |       2 |       1 |       0 |       0 |       1 |       0 |       1 |       1 |       2 |       19
+ 2020 | OK    | TULSA INTERNATIONAL AIRPORT             |       6 |       3 |       1 |       2 |       1 |       0 |       1 |       0 |       0 |       0 |       2 |       2 |       18
+ 2020 | IN    | INDIANAPOLIS INTERNATIONAL AIRPORT      |       3 |       4 |       2 |       3 |       0 |       0 |       0 |       0 |       1 |       1 |       1 |       3 |       18
+ 2020 | UT    | SALT LAKE CITY INTERNATIONAL AIRPORT    |       3 |       3 |       0 |       0 |       0 |       2 |       0 |       0 |       2 |       0 |       7 |       1 |       18
+ 2020 | NC    | RALEIGH-DURHAM INTERNATIONAL AP         |       2 |       2 |       2 |       4 |       0 |       0 |       0 |       1 |       0 |       1 |       2 |       4 |       18
+ 2020 | MO    | LAMBERT-ST LOUIS INTERNATIONAL AP       |       3 |       2 |       1 |       2 |       1 |       1 |       0 |       0 |       0 |       1 |       3 |       3 |       17
+ 2020 | MD    | ANDREWS AIR FORCE BASE AIRPORT          |       3 |       2 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       2 |       3 |       4 |       16
+ 2020 | OR    | PORTLAND INTERNATIONAL AIRPORT          |       5 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       4 |       5 |       16
+ 2020 | KY    | LOUISVILLE INTL-STANDIFORD FIELD AP     |       4 |       4 |       0 |       3 |       0 |       0 |       0 |       0 |       0 |       1 |       1 |       2 |       15
+ 2020 | NC    | PIEDMONT TRIAD INTERNATIONAL AIRPORT    |       3 |       2 |       0 |       3 |       0 |       0 |       0 |       0 |       0 |       2 |       2 |       3 |       15
+ 2020 | WV    | YEAGER AIRPORT                          |       3 |       4 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       1 |       2 |       3 |       15
+ 2020 | IL    | ABRAHAM LINCOLN CAPITAL AIRPORT         |       2 |       1 |       0 |       1 |       1 |       0 |       0 |       1 |       1 |       2 |       2 |       3 |       14
+ 2020 | ID    | BOISE AIR TERMINAL/GOWEN FD AIRPORT     |       3 |       1 |       2 |       0 |       0 |       1 |       0 |       0 |       0 |       1 |       5 |       1 |       14
+ 2020 | TN    | NASHVILLE INTERNATIONAL AIRPORT         |       3 |       4 |       1 |       3 |       1 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       13
+ 2020 | NC    | WILMINGTON INTERNATIONAL AIRPORT        |       2 |       1 |       0 |       4 |       0 |       0 |       0 |       1 |       0 |       0 |       1 |       4 |       13
+ 2020 | NC    | CHARLOTTE/DOUGLAS INTERNATIONAL AP      |       3 |       0 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       1 |       1 |       5 |       12
+ 2020 | OR    | MAHLON SWEET FIELD AIRPORT              |       3 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       5 |       2 |       12
+ 2020 | GA    | HARTSFIELD-JACKSON ATLANTA INTL AP      |       0 |       1 |       0 |       3 |       1 |       0 |       0 |       0 |       0 |       1 |       2 |       3 |       11
+ 2020 | TX    | DALLAS/FT WORTH INTERNATIONAL AP        |       3 |       0 |       1 |       0 |       2 |       2 |       1 |       0 |       0 |       1 |       0 |       1 |       11
+ 2020 | AR    | LITTLE ROCK AFB AIRPORT                 |       2 |       4 |       0 |       1 |       1 |       2 |       0 |       0 |       0 |       0 |       1 |       0 |       11
+ 2020 | TN    | MEMPHIS INTERNATIONAL AIRPORT           |       2 |       2 |       1 |       4 |       1 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       11
+ 2020 | SC    | GREENVILLE-SPARTANBURG INTL AIRPORT     |       1 |       1 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       1 |       1 |       5 |       11
+ 2020 | AL    | HUNTSVILLE INTL/C.T.JONES FIELD AIRPORT |       2 |       1 |       1 |       3 |       1 |       0 |       1 |       0 |       0 |       1 |       0 |       0 |       10
+ 2020 | MS    | JACKSON INTERNATIONAL AIRPORT           |       0 |       2 |       1 |       3 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       2 |        9
+ 2020 | LA    | SHREVEPORT REGIONAL AIRPORT             |       0 |       0 |       1 |       2 |       1 |       1 |       0 |       1 |       0 |       0 |       0 |       2 |        8
+ 2020 | NV    | MCCARRAN INTERNATIONAL AIRPORT          |       2 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       3 |       0 |        7
+ 2020 | TX    | SAN ANTONIO INTERNATIONAL AIRPORT       |       1 |       1 |       0 |       1 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |        6
+ 2020 | TX    | AUSTIN-BERGSTROM INTL AIRPORT           |       2 |       0 |       0 |       0 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       2 |        6
+ 2020 | SC    | CHARLESTON AFB/INTERNATIONAL AIRPORT    |       1 |       0 |       1 |       1 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       2 |        6
+ 2020 | AL    | BIRMINGHAM INTERNATIONAL AIRPORT        |       0 |       0 |       1 |       2 |       1 |       0 |       0 |       0 |       0 |       1 |       0 |       1 |        6
+ 2020 | GA    | SAVANNAH/HILTON HEAD INTL AIRPORT       |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       1 |       2 |        4
+ 2020 | MS    | GULFPORT-BILOXI INTL ARPT               |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       2 |       0 |       1 |        4
+ 2020 | AZ    | TUCSON INTERNATIONAL AIRPORT            |       1 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       1 |        3
+ 2020 | LA    | LOUIS ARMSTRONG NEW ORLEANS INTL AP     |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       2 |       0 |       0 |        3
+ 2020 | TX    | G BUSH INTERCONTINENTAL AP/HOUSTON AP   |       0 |       0 |       0 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        2
+ 2020 | CA    | LOS ANGELES INTERNATIONAL AIRPORT       |       0 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        2
+ 2020 | AZ    | PHOENIX SKY HARBOR INTL AIRPORT         |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        1
+ 2020 | HI    | LIHUE AIRPORT                           |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        1
+ 2020 | FL    | PENSACOLA REGIONAL AIRPORT              |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        1
+ 2020 | FL    | FT LAUD/HOLLYWOOD INTL APT              |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2020 | CA    | FRESNO YOSEMITE INTERNATIONAL AIRPORT   |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2020 | CA    | J. WAYNE APT-ORANGE CO APT              |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2020 | CA    | ONTARIO INTERNATIONAL ARPT              |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2020 | CA    | SACRAMENTO INTL AIRPORT                 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2020 | CA    | SAN DIEGO INTERNATIONAL AIRPORT         |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2020 | CA    | SAN FRANCISCO INTERNATIONAL AIRPORT     |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2020 | CA    | SANTA BARBARA MUNICIPAL AIRPORT         |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2020 | FL    | JACKSONVILLE INTERNATIONAL AIRPORT      |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2020 | FL    | MIAMI INTERNATIONAL AIRPORT             |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2020 | FL    | ORLANDO INTERNATIONAL AIRPORT           |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2020 | FL    | TAMPA INTERNATIONAL AIRPORT             |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2020 | HI    | HONOLULU INTERNATIONAL AIRPORT          |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2020 | HI    | KAHULUI AIRPORT                         |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2021 | CO    | CITY OF COLORADO SPRINGS MUNICIPAL AP   |       6 |      11 |       5 |       4 |       2 |       0 |       0 |       0 |       1 |       2 |      11 |      15 |       57
+ 2021 | AK    | JUNEAU INTERNATIONAL                    |      13 |       8 |       4 |       3 |       0 |       0 |       0 |       0 |       3 |       6 |      11 |       9 |       57
+ 2021 | CO    | DENVER INTERNATIONAL AIRPORT            |       7 |       6 |       4 |       3 |       0 |       0 |       0 |       0 |       0 |       4 |      10 |      13 |       47
+ 2021 | AK    | TED STEVENS ANCHORAGE INTL              |      13 |       4 |       3 |       3 |       0 |       0 |       0 |       0 |       3 |       7 |       3 |       6 |       42
+ 2021 | MA    | GEN E L LOGAN INTERNATIONAL AIRPORT     |       4 |       8 |       5 |       3 |       0 |       0 |       1 |       0 |       1 |       2 |       3 |      11 |       38
+ 2021 | ME    | PORTLAND INTERNATIONAL JETPORT AP       |       3 |       8 |       8 |       2 |       0 |       0 |       2 |       0 |       0 |       1 |       3 |      10 |       37
+ 2021 | NH    | MANCHESTER AIRPORT                      |       3 |       8 |       6 |       3 |       0 |       0 |       1 |       0 |       0 |       1 |       4 |      10 |       36
+ 2021 | NM    | ALBUQUERQUE INTL SUNPORT AIRPORT        |       7 |       6 |       5 |       4 |       2 |       0 |       0 |       0 |       1 |       3 |       1 |       7 |       36
+ 2021 | ND    | HECTOR INTERNATIONAL AIRPORT            |       2 |       3 |       5 |       2 |       1 |       0 |       0 |       2 |       1 |       3 |       7 |      10 |       36
+ 2021 | RI    | THEODORE F GREEN STATE AIRPORT          |       4 |       8 |       3 |       2 |       0 |       0 |       1 |       0 |       1 |       1 |       3 |      11 |       34
+ 2021 | MT    | GALLATIN FIELD AIRPORT                  |       3 |       7 |       5 |       3 |       1 |       2 |       1 |       0 |       0 |       3 |       2 |       6 |       33
+ 2021 | VT    | BURLINGTON INTERNATIONAL AIRPORT        |       5 |       8 |       4 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       3 |      11 |       32
+ 2021 | AK    | FAIRBANKS INTERNATIONAL                 |       8 |       3 |       5 |       2 |       0 |       0 |       0 |       0 |       1 |       2 |       1 |       9 |       31
+ 2021 | NY    | JOHN F KENNEDY INTERNATIONAL AIRPORT    |       4 |       7 |       3 |       1 |       0 |       0 |       1 |       0 |       1 |       1 |       3 |       9 |       30
+ 2021 | MN    | MINNEAPOLIS-ST PAUL INTERNATIONAL AP    |       2 |       4 |       4 |       0 |       2 |       0 |       0 |       0 |       0 |       1 |       7 |      10 |       30
+ 2021 | NY    | LA GUARDIA AIRPORT                      |       3 |       7 |       3 |       1 |       0 |       0 |       0 |       0 |       2 |       1 |       3 |      10 |       30
+ 2021 | CT    | BRADLEY INTERNATIONAL AIRPORT           |       4 |       6 |       3 |       1 |       0 |       0 |       0 |       0 |       0 |       1 |       4 |      11 |       30
+ 2021 | SD    | JOE FOSS FIELD AIRPORT                  |       2 |       3 |       3 |       1 |       1 |       0 |       0 |       0 |       0 |       2 |       7 |      10 |       29
+ 2021 | WY    | NATRONA COUNTY INTERNATIONAL AP         |       2 |       4 |       3 |       5 |       2 |       0 |       0 |       0 |       1 |       0 |       3 |       9 |       29
+ 2021 | MT    | BILLINGS LOGAN INTERNATIONAL AIRPORT    |       2 |       4 |       5 |       4 |       2 |       1 |       0 |       0 |       0 |       0 |       2 |       9 |       29
+ 2021 | MN    | DULUTH INTERNATIONAL AIRPORT            |       2 |       4 |       5 |       0 |       2 |       0 |       0 |       0 |       1 |       1 |       5 |       9 |       29
+ 2021 | MI    | GERALD R FORD INTERNATIONAL AIRPORT     |       5 |       6 |       3 |       1 |       2 |       2 |       0 |       0 |       0 |       0 |       1 |       9 |       29
+ 2021 | NE    | EPPLEY AIRFIELD AIRPORT                 |       3 |       5 |       4 |       1 |       1 |       0 |       0 |       0 |       0 |       1 |       5 |       8 |       28
+ 2021 | NY    | ALBANY INTERNATIONAL AIRPORT            |       3 |       7 |       4 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       3 |      10 |       28
+ 2021 | MI    | DETROIT METRO WAYNE COUNTY AIRPORT      |       3 |       7 |       5 |       0 |       1 |       1 |       0 |       0 |       0 |       0 |       1 |      10 |       28
+ 2021 | NJ    | NEWARK LIBERTY INTERNATIONAL AP         |       4 |       6 |       3 |       1 |       0 |       0 |       0 |       0 |       1 |       1 |       3 |       9 |       28
+ 2021 | IL    | CHICAGO O'HARE INTERNATIONAL AIRPORT    |       5 |       6 |       2 |       1 |       2 |       0 |       0 |       1 |       0 |       0 |       2 |       8 |       27
+ 2021 | WI    | GENERAL MITCHELL INTERNATIONAL AP       |       3 |       5 |       3 |       1 |       2 |       2 |       0 |       0 |       0 |       0 |       2 |       9 |       27
+ 2021 | NY    | GREATER ROCHESTER INTERNATIONAL AP      |       4 |       7 |       4 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |      11 |       27
+ 2021 | NY    | BUFFALO NIAGARA INTERNATIONAL AP        |       3 |       7 |       2 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       2 |      12 |       27
+ 2021 | IA    | DES MOINES INTERNATIONAL AIRPORT        |       3 |       5 |       4 |       2 |       0 |       1 |       0 |       0 |       0 |       0 |       4 |       8 |       27
+ 2021 | IA    | EASTERN IOWA REGIONAL AIRPORT           |       2 |       5 |       3 |       2 |       1 |       0 |       0 |       0 |       0 |       0 |       4 |      10 |       27
+ 2021 | IL    | CHICAGO MIDWAY INTL ARPT                |       5 |       6 |       1 |       1 |       2 |       0 |       0 |       0 |       0 |       0 |       3 |       9 |       27
+ 2021 | NJ    | ATLANTIC CITY INTERNATIONAL AIRPORT     |       3 |       7 |       3 |       2 |       1 |       0 |       1 |       0 |       0 |       1 |       2 |       6 |       26
+ 2021 | NE    | LINCOLN MUNICIPAL AIRPORT               |       2 |       5 |       2 |       1 |       1 |       0 |       0 |       1 |       0 |       1 |       5 |       7 |       25
+ 2021 | IN    | INDIANAPOLIS INTERNATIONAL AIRPORT      |       5 |       7 |       2 |       1 |       1 |       0 |       0 |       0 |       0 |       1 |       0 |       8 |       25
+ 2021 | IL    | ABRAHAM LINCOLN CAPITAL AIRPORT         |       5 |       4 |       2 |       1 |       1 |       0 |       1 |       0 |       0 |       1 |       3 |       7 |       25
+ 2021 | OH    | CLEVELAND-HOPKINS INTERNATIONAL AP      |       4 |       7 |       4 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       8 |       24
+ 2021 | WI    | AUSTIN STRAUBEL INTERNATIONAL AP        |       3 |       4 |       4 |       0 |       2 |       0 |       0 |       0 |       1 |       0 |       1 |       9 |       24
+ 2021 | NY    | SYRACUSE HANCOCK INTERNATIONAL AP       |       3 |       6 |       4 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       2 |       9 |       24
+ 2021 | KS    | WICHITA EISENHOWER NATIONAL             |       5 |       4 |       4 |       0 |       0 |       0 |       0 |       1 |       0 |       1 |       2 |       6 |       23
+ 2021 | KY    | CINCINNATI/NORTHERN KENTUCKY INTL AP    |       4 |       6 |       1 |       0 |       1 |       1 |       0 |       0 |       0 |       1 |       0 |       8 |       22
+ 2021 | IN    | FORT WAYNE INTERNATIONAL AIRPORT        |       3 |       8 |       2 |       0 |       1 |       1 |       0 |       0 |       0 |       0 |       1 |       6 |       22
+ 2021 | WA    | SEATTLE-TACOMA INTERNATIONAL AIRPORT    |       3 |       1 |       3 |       1 |       0 |       2 |       0 |       0 |       0 |       2 |       5 |       5 |       22
+ 2021 | OH    | J.M.COX DAYTON INTERNATIONAL AIRPORT    |       4 |       7 |       1 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       8 |       21
+ 2021 | NJ    | TRENTON MERCER AIRPORT                  |       2 |       5 |       3 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       1 |       8 |       20
+ 2021 | OH    | PORT COLUMBUS INTERNATIONAL AIRPORT     |       4 |       6 |       1 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       7 |       19
+ 2021 | PA    | PITTSBURGH INTERNATIONAL AIRPORT        |       4 |       6 |       2 |       0 |       1 |       1 |       0 |       0 |       1 |       0 |       0 |       4 |       19
+ 2021 | MO    | KANSAS CITY INTERNATIONAL AIRPORT       |       5 |       4 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       7 |       19
+ 2021 | PA    | PHILADELPHIA INTERNATIONAL AIRPORT      |       1 |       5 |       3 |       0 |       0 |       0 |       1 |       0 |       0 |       1 |       1 |       6 |       18
+ 2021 | VA    | RICHMOND INTERNATIONAL AIRPORT          |       3 |       5 |       3 |       1 |       1 |       0 |       2 |       0 |       0 |       1 |       0 |       2 |       18
+ 2021 | KY    | LOUISVILLE INTL-STANDIFORD FIELD AP     |       3 |       6 |       1 |       0 |       1 |       1 |       0 |       0 |       0 |       1 |       0 |       5 |       18
+ 2021 | VA    | NWPT NEWS/WIMBURG INTL APT              |       1 |       6 |       4 |       1 |       0 |       0 |       2 |       0 |       0 |       1 |       2 |       1 |       18
+ 2021 | VA    | NORFOLK INTERNATIONAL AIRPORT           |       2 |       5 |       4 |       1 |       0 |       0 |       2 |       0 |       0 |       1 |       1 |       1 |       17
+ 2021 | WA    | SPOKANE INTERNATIONAL AIRPORT           |       1 |       2 |       4 |       1 |       0 |       0 |       0 |       1 |       0 |       0 |       3 |       5 |       17
+ 2021 | MO    | LAMBERT-ST LOUIS INTERNATIONAL AP       |       5 |       3 |       0 |       2 |       1 |       0 |       0 |       0 |       0 |       1 |       1 |       3 |       16
+ 2021 | VA    | CHARLOTTESVILLE ALBEMARLE ARPT          |       2 |       4 |       3 |       1 |       2 |       0 |       0 |       0 |       0 |       0 |       1 |       1 |       14
+ 2021 | TX    | EL PASO INTERNATIONAL AIRPORT           |       2 |       5 |       2 |       2 |       1 |       0 |       0 |       0 |       0 |       0 |       2 |       0 |       14
+ 2021 | MD    | BALTIMORE-WASHINGTON INTL AIRPORT       |       2 |       4 |       2 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       3 |       13
+ 2021 | WV    | YEAGER AIRPORT                          |       2 |       5 |       1 |       0 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       3 |       13
+ 2021 | OK    | TULSA INTERNATIONAL AIRPORT             |       5 |       3 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       2 |       13
+ 2021 | VA    | WASHINGTON DULLES INTERNATIONAL AP      |       2 |       5 |       2 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       12
+ 2021 | PA    | HARRISBURG INTERNATIONAL AIRPORT        |       1 |       3 |       2 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       4 |       12
+ 2021 | UT    | SALT LAKE CITY INTERNATIONAL AIRPORT    |       2 |       1 |       3 |       0 |       0 |       0 |       0 |       1 |       0 |       1 |       2 |       2 |       12
+ 2021 | NV    | RENO/TAHOE INTERNATIONAL AIRPORT        |       2 |       1 |       4 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       3 |       1 |       12
+ 2021 | VA    | RONALD REAGAN WASHINGTON NATL AP        |       2 |       3 |       2 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       1 |       1 |       11
+ 2021 | OR    | MAHLON SWEET FIELD AIRPORT              |       4 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       2 |       2 |       10
+ 2021 | MD    | ANDREWS AIR FORCE BASE AIRPORT          |       2 |       3 |       0 |       1 |       0 |       0 |       0 |       0 |       2 |       0 |       1 |       1 |       10
+ 2021 | AR    | LITTLE ROCK AFB AIRPORT                 |       4 |       3 |       0 |       0 |       1 |       1 |       0 |       0 |       1 |       0 |       0 |       0 |       10
+ 2021 | NC    | RALEIGH-DURHAM INTERNATIONAL AP         |       0 |       5 |       2 |       2 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       10
+ 2021 | NC    | WILMINGTON INTERNATIONAL AIRPORT        |       1 |       5 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       2 |        9
+ 2021 | ID    | BOISE AIR TERMINAL/GOWEN FD AIRPORT     |       0 |       2 |       4 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |        9
+ 2021 | OK    | WILL ROGERS WORLD AIRPORT               |       5 |       2 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |        9
+ 2021 | TN    | NASHVILLE INTERNATIONAL AIRPORT         |       4 |       2 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       1 |        9
+ 2021 | AZ    | TUCSON INTERNATIONAL AIRPORT            |       1 |       1 |       0 |       0 |       0 |       5 |       0 |       0 |       0 |       0 |       0 |       1 |        8
+ 2021 | MS    | JACKSON INTERNATIONAL AIRPORT           |       2 |       2 |       0 |       3 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        7
+ 2021 | NV    | MCCARRAN INTERNATIONAL AIRPORT          |       0 |       3 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       2 |        7
+ 2021 | AL    | HUNTSVILLE INTL/C.T.JONES FIELD AIRPORT |       2 |       1 |       1 |       1 |       0 |       0 |       0 |       1 |       0 |       1 |       0 |       0 |        7
+ 2021 | OR    | PORTLAND INTERNATIONAL AIRPORT          |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       2 |       3 |        7
+ 2021 | SC    | CHARLESTON AFB/INTERNATIONAL AIRPORT    |       1 |       2 |       2 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |        7
+ 2021 | TN    | MEMPHIS INTERNATIONAL AIRPORT           |       2 |       2 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |        7
+ 2021 | AL    | BIRMINGHAM INTERNATIONAL AIRPORT        |       0 |       3 |       0 |       1 |       0 |       0 |       0 |       1 |       0 |       1 |       0 |       0 |        6
+ 2021 | NC    | PIEDMONT TRIAD INTERNATIONAL AIRPORT    |       1 |       3 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        6
+ 2021 | TX    | G BUSH INTERCONTINENTAL AP/HOUSTON AP   |       1 |       0 |       0 |       1 |       3 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        5
+ 2021 | TX    | DALLAS/FT WORTH INTERNATIONAL AP        |       1 |       0 |       1 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        4
+ 2021 | FL    | PENSACOLA REGIONAL AIRPORT              |       0 |       3 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        4
+ 2021 | TX    | AUSTIN-BERGSTROM INTL AIRPORT           |       2 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |        4
+ 2021 | LA    | LOUIS ARMSTRONG NEW ORLEANS INTL AP     |       0 |       1 |       0 |       0 |       1 |       0 |       0 |       2 |       0 |       0 |       0 |       0 |        4
+ 2021 | NC    | CHARLOTTE/DOUGLAS INTERNATIONAL AP      |       0 |       2 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        4
+ 2021 | GA    | HARTSFIELD-JACKSON ATLANTA INTL AP      |       1 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        3
+ 2021 | MS    | GULFPORT-BILOXI INTL ARPT               |       0 |       1 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        3
+ 2021 | SC    | GREENVILLE-SPARTANBURG INTL AIRPORT     |       0 |       2 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        3
+ 2021 | AZ    | PHOENIX SKY HARBOR INTL AIRPORT         |       0 |       1 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |        3
+ 2021 | LA    | SHREVEPORT REGIONAL AIRPORT             |       1 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        2
+ 2021 | GA    | SAVANNAH/HILTON HEAD INTL AIRPORT       |       1 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        2
+ 2021 | FL    | ORLANDO INTERNATIONAL AIRPORT           |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |        2
+ 2021 | FL    | JACKSONVILLE INTERNATIONAL AIRPORT      |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        2
+ 2021 | TX    | SAN ANTONIO INTERNATIONAL AIRPORT       |       0 |       0 |       1 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        2
+ 2021 | FL    | TAMPA INTERNATIONAL AIRPORT             |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        1
+ 2021 | FL    | FT LAUD/HOLLYWOOD INTL APT              |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        1
+ 2021 | CA    | SAN DIEGO INTERNATIONAL AIRPORT         |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |        1
+ 2021 | CA    | ONTARIO INTERNATIONAL ARPT              |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2021 | CA    | SACRAMENTO INTL AIRPORT                 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2021 | CA    | SAN FRANCISCO INTERNATIONAL AIRPORT     |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2021 | CA    | SANTA BARBARA MUNICIPAL AIRPORT         |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2021 | HI    | LIHUE AIRPORT                           |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2021 | FL    | MIAMI INTERNATIONAL AIRPORT             |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2021 | HI    | HONOLULU INTERNATIONAL AIRPORT          |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2021 | HI    | KAHULUI AIRPORT                         |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2021 | CA    | FRESNO YOSEMITE INTERNATIONAL AIRPORT   |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2021 | CA    | J. WAYNE APT-ORANGE CO APT              |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2021 | CA    | LOS ANGELES INTERNATIONAL AIRPORT       |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2022 | CO    | CITY OF COLORADO SPRINGS MUNICIPAL AP   |      14 |       9 |       5 |      12 |       5 |       0 |       0 |       0 |       0 |       2 |       8 |       9 |       64
+ 2022 | ND    | HECTOR INTERNATIONAL AIRPORT            |      14 |      12 |       4 |       5 |       4 |       2 |       2 |       0 |       3 |       5 |       4 |       6 |       61
+ 2022 | SD    | JOE FOSS FIELD AIRPORT                  |      13 |      12 |       8 |       8 |       3 |       0 |       0 |       0 |       0 |       1 |       2 |       9 |       56
+ 2022 | MN    | MINNEAPOLIS-ST PAUL INTERNATIONAL AP    |      12 |      11 |       6 |       6 |       5 |       0 |       1 |       0 |       0 |       1 |       3 |       6 |       51
+ 2022 | CO    | DENVER INTERNATIONAL AIRPORT            |      12 |       4 |       1 |      12 |       4 |       0 |       0 |       0 |       0 |       0 |       4 |      14 |       51
+ 2022 | MN    | DULUTH INTERNATIONAL AIRPORT            |      12 |      11 |       4 |       5 |       2 |       1 |       0 |       0 |       1 |       2 |       4 |       8 |       50
+ 2022 | NH    | MANCHESTER AIRPORT                      |      11 |       8 |       9 |       4 |       0 |       2 |       0 |       0 |       0 |       1 |       8 |       7 |       50
+ 2022 | IL    | ABRAHAM LINCOLN CAPITAL AIRPORT         |      17 |      16 |       6 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       2 |       5 |       48
+ 2022 | ME    | PORTLAND INTERNATIONAL JETPORT AP       |      10 |       9 |       9 |       4 |       0 |       2 |       0 |       0 |       0 |       0 |       7 |       7 |       48
+ 2022 | WY    | NATRONA COUNTY INTERNATIONAL AP         |       8 |       5 |       0 |      12 |       2 |       1 |       0 |       0 |       2 |       3 |       6 |       8 |       47
+ 2022 | MA    | GEN E L LOGAN INTERNATIONAL AIRPORT     |      11 |       8 |       8 |       3 |       0 |       1 |       0 |       0 |       0 |       0 |       8 |       7 |       46
+ 2022 | RI    | THEODORE F GREEN STATE AIRPORT          |      13 |       7 |       6 |       3 |       0 |       1 |       0 |       0 |       0 |       1 |       8 |       7 |       46
+ 2022 | NY    | SYRACUSE HANCOCK INTERNATIONAL AP       |       9 |      11 |       7 |       3 |       2 |       0 |       0 |       0 |       0 |       3 |       8 |       3 |       46
+ 2022 | NE    | LINCOLN MUNICIPAL AIRPORT               |      10 |      10 |       6 |       7 |       3 |       0 |       0 |       0 |       0 |       0 |       1 |       9 |       46
+ 2022 | NY    | GREATER ROCHESTER INTERNATIONAL AP      |       8 |       9 |       8 |       1 |       1 |       1 |       0 |       0 |       2 |       2 |       7 |       4 |       43
+ 2022 | VT    | BURLINGTON INTERNATIONAL AIRPORT        |      11 |      10 |       8 |       3 |       0 |       0 |       0 |       0 |       0 |       0 |       7 |       4 |       43
+ 2022 | AK    | TED STEVENS ANCHORAGE INTL              |       8 |       6 |       2 |       1 |       1 |       0 |       0 |       0 |       0 |       8 |       8 |       8 |       42
+ 2022 | WI    | AUSTIN STRAUBEL INTERNATIONAL AP        |       9 |       8 |       5 |       4 |       3 |       1 |       0 |       0 |       0 |       2 |       4 |       5 |       41
+ 2022 | MT    | GALLATIN FIELD AIRPORT                  |       8 |       5 |       0 |       9 |       1 |       0 |       1 |       0 |       0 |       3 |       6 |       7 |       40
+ 2022 | NE    | EPPLEY AIRFIELD AIRPORT                 |       9 |       8 |       6 |       7 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       8 |       40
+ 2022 | IA    | EASTERN IOWA REGIONAL AIRPORT           |      11 |       9 |       6 |       3 |       0 |       1 |       0 |       0 |       0 |       0 |       2 |       7 |       39
+ 2022 | CT    | BRADLEY INTERNATIONAL AIRPORT           |       9 |       7 |       7 |       2 |       0 |       1 |       0 |       0 |       0 |       0 |       7 |       6 |       39
+ 2022 | NY    | BUFFALO NIAGARA INTERNATIONAL AP        |       8 |       7 |       8 |       1 |       1 |       0 |       0 |       0 |       1 |       2 |       7 |       3 |       38
+ 2022 | NM    | ALBUQUERQUE INTL SUNPORT AIRPORT        |       5 |       5 |       8 |       5 |       2 |       0 |       0 |       0 |       1 |       3 |       4 |       5 |       38
+ 2022 | IA    | DES MOINES INTERNATIONAL AIRPORT        |      10 |       8 |       6 |       5 |       0 |       0 |       0 |       0 |       0 |       1 |       1 |       7 |       38
+ 2022 | NY    | ALBANY INTERNATIONAL AIRPORT            |       9 |       6 |       5 |       2 |       0 |       1 |       0 |       0 |       0 |       0 |       9 |       5 |       37
+ 2022 | NY    | JOHN F KENNEDY INTERNATIONAL AIRPORT    |      10 |       5 |       4 |       3 |       0 |       0 |       0 |       0 |       0 |       2 |       7 |       5 |       36
+ 2022 | AK    | JUNEAU INTERNATIONAL                    |       5 |       7 |       1 |       4 |       0 |       0 |       0 |       0 |       0 |       6 |       5 |       6 |       34
+ 2022 | MT    | BILLINGS LOGAN INTERNATIONAL AIRPORT    |       6 |       5 |       0 |       8 |       1 |       1 |       0 |       0 |       0 |       1 |       6 |       5 |       33
+ 2022 | IL    | CHICAGO MIDWAY INTL ARPT                |       9 |       6 |       7 |       2 |       0 |       0 |       0 |       1 |       0 |       0 |       3 |       4 |       32
+ 2022 | NY    | LA GUARDIA AIRPORT                      |       7 |       4 |       4 |       3 |       0 |       0 |       0 |       0 |       0 |       1 |       7 |       5 |       31
+ 2022 | NJ    | TRENTON MERCER AIRPORT                  |       8 |       4 |       3 |       4 |       1 |       0 |       0 |       0 |       0 |       0 |       7 |       4 |       31
+ 2022 | IL    | CHICAGO O'HARE INTERNATIONAL AIRPORT    |       8 |       6 |       6 |       3 |       0 |       0 |       0 |       0 |       0 |       1 |       3 |       4 |       31
+ 2022 | WI    | GENERAL MITCHELL INTERNATIONAL AP       |       7 |       5 |       6 |       4 |       0 |       0 |       1 |       0 |       0 |       0 |       4 |       4 |       31
+ 2022 | MI    | DETROIT METRO WAYNE COUNTY AIRPORT      |      10 |       4 |       7 |       0 |       0 |       0 |       0 |       0 |       1 |       1 |       2 |       5 |       30
+ 2022 | NJ    | ATLANTIC CITY INTERNATIONAL AIRPORT     |       8 |       5 |       3 |       4 |       0 |       0 |       0 |       0 |       0 |       0 |       7 |       3 |       30
+ 2022 | MI    | GERALD R FORD INTERNATIONAL AIRPORT     |       7 |       5 |       6 |       2 |       0 |       0 |       0 |       0 |       1 |       0 |       3 |       5 |       29
+ 2022 | PA    | PHILADELPHIA INTERNATIONAL AIRPORT      |       6 |       4 |       3 |       4 |       0 |       0 |       0 |       0 |       0 |       2 |       7 |       3 |       29
+ 2022 | NJ    | NEWARK LIBERTY INTERNATIONAL AP         |       7 |       4 |       4 |       3 |       0 |       0 |       0 |       0 |       0 |       0 |       7 |       4 |       29
+ 2022 | MO    | KANSAS CITY INTERNATIONAL AIRPORT       |       3 |       5 |       4 |       6 |       1 |       0 |       0 |       0 |       0 |       1 |       2 |       7 |       29
+ 2022 | MD    | BALTIMORE-WASHINGTON INTL AIRPORT       |       6 |       4 |       3 |       4 |       0 |       0 |       0 |       0 |       0 |       1 |       6 |       4 |       28
+ 2022 | VA    | RONALD REAGAN WASHINGTON NATL AP        |       6 |       3 |       4 |       4 |       0 |       0 |       0 |       0 |       0 |       1 |       6 |       4 |       28
+ 2022 | IN    | FORT WAYNE INTERNATIONAL AIRPORT        |       8 |       4 |       4 |       2 |       0 |       0 |       1 |       0 |       0 |       1 |       2 |       5 |       27
+ 2022 | VA    | NWPT NEWS/WIMBURG INTL APT              |       9 |       2 |       1 |       3 |       1 |       0 |       0 |       0 |       0 |       0 |       6 |       4 |       26
+ 2022 | OH    | CLEVELAND-HOPKINS INTERNATIONAL AP      |       9 |       4 |       6 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       2 |       4 |       26
+ 2022 | PA    | HARRISBURG INTERNATIONAL AIRPORT        |       7 |       4 |       2 |       3 |       0 |       0 |       0 |       0 |       0 |       2 |       5 |       2 |       25
+ 2022 | AK    | FAIRBANKS INTERNATIONAL                 |       3 |       5 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       6 |       6 |       5 |       25
+ 2022 | KS    | WICHITA EISENHOWER NATIONAL             |       3 |       2 |       2 |       6 |       1 |       1 |       0 |       0 |       0 |       0 |       4 |       6 |       25
+ 2022 | WA    | SEATTLE-TACOMA INTERNATIONAL AIRPORT    |       5 |       0 |       2 |       4 |       0 |       0 |       0 |       0 |       0 |       2 |       6 |       5 |       24
+ 2022 | VA    | RICHMOND INTERNATIONAL AIRPORT          |       6 |       2 |       4 |       2 |       1 |       0 |       0 |       0 |       0 |       1 |       5 |       3 |       24
+ 2022 | KY    | CINCINNATI/NORTHERN KENTUCKY INTL AP    |       5 |       3 |       5 |       0 |       2 |       0 |       0 |       0 |       0 |       2 |       2 |       4 |       23
+ 2022 | OH    | J.M.COX DAYTON INTERNATIONAL AIRPORT    |       7 |       3 |       5 |       1 |       2 |       0 |       1 |       0 |       0 |       0 |       1 |       3 |       23
+ 2022 | VA    | NORFOLK INTERNATIONAL AIRPORT           |       7 |       2 |       2 |       3 |       1 |       0 |       0 |       0 |       0 |       0 |       4 |       4 |       23
+ 2022 | NC    | RALEIGH-DURHAM INTERNATIONAL AP         |       7 |       2 |       2 |       1 |       0 |       1 |       0 |       0 |       1 |       2 |       3 |       3 |       22
+ 2022 | PA    | PITTSBURGH INTERNATIONAL AIRPORT        |       6 |       4 |       3 |       0 |       0 |       0 |       0 |       0 |       0 |       2 |       5 |       2 |       22
+ 2022 | VA    | WASHINGTON DULLES INTERNATIONAL AP      |       5 |       3 |       3 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       5 |       3 |       21
+ 2022 | VA    | CHARLOTTESVILLE ALBEMARLE ARPT          |       6 |       3 |       2 |       1 |       1 |       0 |       0 |       0 |       0 |       1 |       4 |       3 |       21
+ 2022 | WV    | YEAGER AIRPORT                          |       5 |       3 |       5 |       3 |       1 |       0 |       0 |       0 |       0 |       0 |       2 |       2 |       21
+ 2022 | OH    | PORT COLUMBUS INTERNATIONAL AIRPORT     |       6 |       3 |       5 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       2 |       3 |       20
+ 2022 | IN    | INDIANAPOLIS INTERNATIONAL AIRPORT      |       6 |       0 |       5 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       3 |       4 |       20
+ 2022 | UT    | SALT LAKE CITY INTERNATIONAL AIRPORT    |       3 |       3 |       1 |       4 |       2 |       1 |       0 |       0 |       0 |       1 |       3 |       2 |       20
+ 2022 | WA    | SPOKANE INTERNATIONAL AIRPORT           |       3 |       1 |       1 |       4 |       0 |       0 |       0 |       0 |       0 |       0 |       6 |       4 |       19
+ 2022 | MO    | LAMBERT-ST LOUIS INTERNATIONAL AP       |       6 |       2 |       3 |       1 |       2 |       0 |       0 |       0 |       0 |       0 |       1 |       3 |       18
+ 2022 | OK    | WILL ROGERS WORLD AIRPORT               |       2 |       1 |       0 |       4 |       1 |       0 |       0 |       0 |       0 |       0 |       3 |       7 |       18
+ 2022 | TX    | EL PASO INTERNATIONAL AIRPORT           |       1 |       5 |       3 |       1 |       0 |       0 |       0 |       0 |       0 |       1 |       4 |       2 |       17
+ 2022 | NC    | PIEDMONT TRIAD INTERNATIONAL AIRPORT    |       4 |       2 |       2 |       2 |       0 |       0 |       0 |       0 |       1 |       1 |       3 |       2 |       17
+ 2022 | NC    | CHARLOTTE/DOUGLAS INTERNATIONAL AP      |       4 |       2 |       4 |       1 |       0 |       0 |       0 |       0 |       1 |       1 |       2 |       2 |       17
+ 2022 | KY    | LOUISVILLE INTL-STANDIFORD FIELD AP     |       4 |       3 |       5 |       0 |       1 |       1 |       0 |       0 |       0 |       0 |       1 |       2 |       17
+ 2022 | MD    | ANDREWS AIR FORCE BASE AIRPORT          |       5 |       2 |       3 |       0 |       0 |       0 |       2 |       0 |       0 |       0 |       1 |       2 |       15
+ 2022 | SC    | GREENVILLE-SPARTANBURG INTL AIRPORT     |       4 |       2 |       4 |       1 |       2 |       0 |       0 |       0 |       0 |       0 |       1 |       1 |       15
+ 2022 | OK    | TULSA INTERNATIONAL AIRPORT             |       2 |       1 |       1 |       3 |       1 |       0 |       0 |       0 |       0 |       0 |       2 |       5 |       15
+ 2022 | OR    | PORTLAND INTERNATIONAL AIRPORT          |       3 |       0 |       0 |       3 |       0 |       0 |       0 |       0 |       0 |       1 |       3 |       4 |       14
+ 2022 | NC    | WILMINGTON INTERNATIONAL AIRPORT        |       5 |       2 |       1 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       2 |       1 |       12
+ 2022 | ID    | BOISE AIR TERMINAL/GOWEN FD AIRPORT     |       2 |       2 |       2 |       3 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       2 |       12
+ 2022 | AL    | HUNTSVILLE INTL/C.T.JONES FIELD AIRPORT |       2 |       1 |       2 |       1 |       1 |       0 |       0 |       0 |       0 |       1 |       4 |       0 |       12
+ 2022 | TN    | NASHVILLE INTERNATIONAL AIRPORT         |       1 |       1 |       3 |       1 |       1 |       0 |       0 |       0 |       0 |       1 |       3 |       0 |       11
+ 2022 | TN    | MEMPHIS INTERNATIONAL AIRPORT           |       1 |       1 |       5 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       2 |       1 |       11
+ 2022 | LA    | SHREVEPORT REGIONAL AIRPORT             |       3 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       2 |       4 |       10
+ 2022 | OR    | MAHLON SWEET FIELD AIRPORT              |       2 |       0 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       2 |       4 |       10
+ 2022 | AR    | LITTLE ROCK AFB AIRPORT                 |       2 |       0 |       3 |       0 |       1 |       2 |       0 |       0 |       0 |       0 |       1 |       0 |        9
+ 2022 | NV    | RENO/TAHOE INTERNATIONAL AIRPORT        |       0 |       2 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       1 |       2 |       2 |        9
+ 2022 | SC    | CHARLESTON AFB/INTERNATIONAL AIRPORT    |       5 |       0 |       1 |       0 |       0 |       1 |       0 |       0 |       1 |       0 |       1 |       0 |        9
+ 2022 | TX    | AUSTIN-BERGSTROM INTL AIRPORT           |       3 |       1 |       1 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       2 |        9
+ 2022 | TX    | SAN ANTONIO INTERNATIONAL AIRPORT       |       3 |       1 |       2 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |        8
+ 2022 | MS    | JACKSON INTERNATIONAL AIRPORT           |       1 |       1 |       2 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       1 |       1 |        8
+ 2022 | TX    | DALLAS/FT WORTH INTERNATIONAL AP        |       2 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       3 |        8
+ 2022 | GA    | HARTSFIELD-JACKSON ATLANTA INTL AP      |       3 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       2 |       0 |        7
+ 2022 | NV    | MCCARRAN INTERNATIONAL AIRPORT          |       0 |       2 |       2 |       1 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        7
+ 2022 | AL    | BIRMINGHAM INTERNATIONAL AIRPORT        |       1 |       1 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       2 |       0 |        6
+ 2022 | GA    | SAVANNAH/HILTON HEAD INTL AIRPORT       |       2 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |        4
+ 2022 | FL    | JACKSONVILLE INTERNATIONAL AIRPORT      |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |        2
+ 2022 | FL    | ORLANDO INTERNATIONAL AIRPORT           |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       1 |       0 |        2
+ 2022 | CA    | ONTARIO INTERNATIONAL ARPT              |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       2 |       0 |       0 |       0 |        2
+ 2022 | TX    | G BUSH INTERCONTINENTAL AP/HOUSTON AP   |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        1
+ 2022 | AZ    | TUCSON INTERNATIONAL AIRPORT            |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |        1
+ 2022 | LA    | LOUIS ARMSTRONG NEW ORLEANS INTL AP     |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |        1
+ 2022 | HI    | LIHUE AIRPORT                           |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        1
+ 2022 | CA    | SACRAMENTO INTL AIRPORT                 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |        1
+ 2022 | HI    | HONOLULU INTERNATIONAL AIRPORT          |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        1
+ 2022 | FL    | TAMPA INTERNATIONAL AIRPORT             |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |        1
+ 2022 | FL    | PENSACOLA REGIONAL AIRPORT              |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        1
+ 2022 | FL    | FT LAUD/HOLLYWOOD INTL APT              |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        1
+ 2022 | FL    | MIAMI INTERNATIONAL AIRPORT             |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2022 | AZ    | PHOENIX SKY HARBOR INTL AIRPORT         |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2022 | CA    | FRESNO YOSEMITE INTERNATIONAL AIRPORT   |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2022 | CA    | J. WAYNE APT-ORANGE CO APT              |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2022 | CA    | LOS ANGELES INTERNATIONAL AIRPORT       |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2022 | MS    | GULFPORT-BILOXI INTL ARPT               |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2022 | CA    | SAN DIEGO INTERNATIONAL AIRPORT         |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2022 | CA    | SAN FRANCISCO INTERNATIONAL AIRPORT     |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2022 | CA    | SANTA BARBARA MUNICIPAL AIRPORT         |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2022 | HI    | KAHULUI AIRPORT                         |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2023 | NY    | BUFFALO NIAGARA INTERNATIONAL AP        |       6 |      14 |       9 |       2 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       32
+ 2023 | MA    | GEN E L LOGAN INTERNATIONAL AIRPORT     |       6 |      11 |       7 |       4 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       30
+ 2023 | NY    | SYRACUSE HANCOCK INTERNATIONAL AP       |       6 |      13 |       7 |       2 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       30
+ 2023 | ME    | PORTLAND INTERNATIONAL JETPORT AP       |       6 |       8 |       8 |       4 |       4 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       30
+ 2023 | NY    | LA GUARDIA AIRPORT                      |       8 |      12 |       4 |       3 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       29
+ 2023 | VT    | BURLINGTON INTERNATIONAL AIRPORT        |       6 |      12 |       4 |       4 |       3 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       29
+ 2023 | NY    | GREATER ROCHESTER INTERNATIONAL AP      |       6 |      13 |       8 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       29
+ 2023 | NJ    | NEWARK LIBERTY INTERNATIONAL AP         |       7 |      12 |       5 |       3 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       29
+ 2023 | NY    | JOHN F KENNEDY INTERNATIONAL AIRPORT    |       7 |      11 |       5 |       3 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       28
+ 2023 | CO    | CITY OF COLORADO SPRINGS MUNICIPAL AP   |       5 |      11 |       7 |       3 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       27
+ 2023 | KS    | WICHITA EISENHOWER NATIONAL             |       7 |       8 |       5 |       3 |       0 |       2 |       1 |       1 |       0 |       0 |       0 |       0 |       27
+ 2023 | RI    | THEODORE F GREEN STATE AIRPORT          |       7 |      10 |       6 |       3 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       27
+ 2023 | CT    | BRADLEY INTERNATIONAL AIRPORT           |       6 |       9 |       6 |       3 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       26
+ 2023 | NY    | ALBANY INTERNATIONAL AIRPORT            |       5 |      12 |       4 |       3 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       26
+ 2023 | NM    | ALBUQUERQUE INTL SUNPORT AIRPORT        |       9 |       9 |       0 |       4 |       1 |       0 |       0 |       2 |       0 |       0 |       0 |       0 |       25
+ 2023 | NJ    | TRENTON MERCER AIRPORT                  |       6 |      10 |       5 |       3 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       25
+ 2023 | NH    | MANCHESTER AIRPORT                      |       3 |       9 |       6 |       4 |       3 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       25
+ 2023 | MI    | DETROIT METRO WAYNE COUNTY AIRPORT      |       6 |       9 |       6 |       1 |       1 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       25
+ 2023 | NJ    | ATLANTIC CITY INTERNATIONAL AIRPORT     |       6 |       6 |       6 |       3 |       3 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       24
+ 2023 | VA    | RICHMOND INTERNATIONAL AIRPORT          |       7 |       7 |       5 |       3 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       24
+ 2023 | CO    | DENVER INTERNATIONAL AIRPORT            |       6 |       7 |       8 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       23
+ 2023 | VA    | NORFOLK INTERNATIONAL AIRPORT           |       6 |       8 |       4 |       3 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       23
+ 2023 | PA    | HARRISBURG INTERNATIONAL AIRPORT        |       7 |       9 |       3 |       2 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       23
+ 2023 | VA    | RONALD REAGAN WASHINGTON NATL AP        |       7 |       7 |       5 |       2 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       23
+ 2023 | MD    | BALTIMORE-WASHINGTON INTL AIRPORT       |       6 |      10 |       4 |       2 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       23
+ 2023 | PA    | PHILADELPHIA INTERNATIONAL AIRPORT      |       7 |       7 |       5 |       2 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       22
+ 2023 | MI    | GERALD R FORD INTERNATIONAL AIRPORT     |       5 |       9 |       5 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       21
+ 2023 | WI    | GENERAL MITCHELL INTERNATIONAL AP       |       2 |      10 |       4 |       3 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       21
+ 2023 | IL    | CHICAGO O'HARE INTERNATIONAL AIRPORT    |       4 |       8 |       4 |       2 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       20
+ 2023 | IL    | CHICAGO MIDWAY INTL ARPT                |       4 |       6 |       5 |       2 |       1 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       20
+ 2023 | OH    | CLEVELAND-HOPKINS INTERNATIONAL AP      |       4 |       7 |       7 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       20
+ 2023 | VA    | CHARLOTTESVILLE ALBEMARLE ARPT          |       5 |       6 |       5 |       2 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       20
+ 2023 | VA    | NWPT NEWS/WIMBURG INTL APT              |       4 |       7 |       4 |       3 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       20
+ 2023 | WV    | YEAGER AIRPORT                          |       4 |       6 |       6 |       2 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       20
+ 2023 | KY    | CINCINNATI/NORTHERN KENTUCKY INTL AP    |       5 |       6 |       5 |       1 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       19
+ 2023 | WI    | AUSTIN STRAUBEL INTERNATIONAL AP        |       2 |      10 |       3 |       3 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       19
+ 2023 | PA    | PITTSBURGH INTERNATIONAL AIRPORT        |       4 |       6 |       7 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       19
+ 2023 | IA    | DES MOINES INTERNATIONAL AIRPORT        |       3 |      11 |       3 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       19
+ 2023 | VA    | WASHINGTON DULLES INTERNATIONAL AP      |       6 |       5 |       5 |       2 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       19
+ 2023 | MO    | KANSAS CITY INTERNATIONAL AIRPORT       |       3 |      10 |       3 |       0 |       0 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       18
+ 2023 | OK    | TULSA INTERNATIONAL AIRPORT             |       6 |       6 |       4 |       0 |       0 |       1 |       0 |       1 |       0 |       0 |       0 |       0 |       18
+ 2023 | OH    | J.M.COX DAYTON INTERNATIONAL AIRPORT    |       4 |       5 |       7 |       1 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       18
+ 2023 | SD    | JOE FOSS FIELD AIRPORT                  |       4 |       8 |       4 |       1 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       18
+ 2023 | IN    | FORT WAYNE INTERNATIONAL AIRPORT        |       5 |       5 |       6 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       18
+ 2023 | NE    | LINCOLN MUNICIPAL AIRPORT               |       5 |       6 |       5 |       1 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       18
+ 2023 | NE    | EPPLEY AIRFIELD AIRPORT                 |       4 |       8 |       5 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       18
+ 2023 | MN    | MINNEAPOLIS-ST PAUL INTERNATIONAL AP    |       2 |      10 |       2 |       2 |       1 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       18
+ 2023 | IN    | INDIANAPOLIS INTERNATIONAL AIRPORT      |       3 |       5 |       5 |       1 |       1 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       17
+ 2023 | MO    | LAMBERT-ST LOUIS INTERNATIONAL AP       |       3 |       6 |       5 |       2 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       17
+ 2023 | IL    | ABRAHAM LINCOLN CAPITAL AIRPORT         |       3 |       6 |       5 |       2 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       17
+ 2023 | IA    | EASTERN IOWA REGIONAL AIRPORT           |       4 |       8 |       3 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       16
+ 2023 | OH    | PORT COLUMBUS INTERNATIONAL AIRPORT     |       4 |       4 |       6 |       1 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       16
+ 2023 | OK    | WILL ROGERS WORLD AIRPORT               |       2 |       6 |       5 |       0 |       0 |       1 |       0 |       1 |       0 |       0 |       0 |       0 |       15
+ 2023 | ND    | HECTOR INTERNATIONAL AIRPORT            |       5 |       7 |       2 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       15
+ 2023 | AK    | JUNEAU INTERNATIONAL                    |       2 |       7 |       2 |       1 |       0 |       1 |       0 |       1 |       0 |       0 |       0 |       0 |       14
+ 2023 | NV    | RENO/TAHOE INTERNATIONAL AIRPORT        |       4 |       6 |       4 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       14
+ 2023 | NC    | RALEIGH-DURHAM INTERNATIONAL AP         |       6 |       4 |       2 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       14
+ 2023 | MN    | DULUTH INTERNATIONAL AIRPORT            |       2 |       7 |       0 |       3 |       1 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       14
+ 2023 | LA    | SHREVEPORT REGIONAL AIRPORT             |       3 |       4 |       4 |       1 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       14
+ 2023 | MT    | GALLATIN FIELD AIRPORT                  |       3 |       5 |       3 |       0 |       0 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       13
+ 2023 | TX    | DALLAS/FT WORTH INTERNATIONAL AP        |       3 |       4 |       3 |       1 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       13
+ 2023 | NC    | PIEDMONT TRIAD INTERNATIONAL AIRPORT    |       6 |       3 |       2 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       13
+ 2023 | KY    | LOUISVILLE INTL-STANDIFORD FIELD AP     |       2 |       4 |       3 |       1 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       12
+ 2023 | TX    | EL PASO INTERNATIONAL AIRPORT           |       5 |       6 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       12
+ 2023 | OR    | PORTLAND INTERNATIONAL AIRPORT          |       4 |       4 |       3 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       11
+ 2023 | OR    | MAHLON SWEET FIELD AIRPORT              |       5 |       2 |       4 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       11
+ 2023 | AK    | FAIRBANKS INTERNATIONAL                 |       5 |       2 |       3 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       11
+ 2023 | UT    | SALT LAKE CITY INTERNATIONAL AIRPORT    |       5 |       4 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       11
+ 2023 | AK    | TED STEVENS ANCHORAGE INTL              |       2 |       1 |       5 |       0 |       0 |       1 |       0 |       1 |       0 |       0 |       0 |       0 |       10
+ 2023 | ID    | BOISE AIR TERMINAL/GOWEN FD AIRPORT     |       2 |       4 |       4 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       10
+ 2023 | WY    | NATRONA COUNTY INTERNATIONAL AP         |       0 |       5 |       2 |       1 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |        9
+ 2023 | WA    | SEATTLE-TACOMA INTERNATIONAL AIRPORT    |       4 |       3 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        9
+ 2023 | TN    | MEMPHIS INTERNATIONAL AIRPORT           |       3 |       2 |       4 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        9
+ 2023 | MD    | ANDREWS AIR FORCE BASE AIRPORT          |       1 |       4 |       3 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        9
+ 2023 | AR    | LITTLE ROCK AFB AIRPORT                 |       2 |       1 |       1 |       1 |       0 |       3 |       1 |       0 |       0 |       0 |       0 |       0 |        9
+ 2023 | MS    | JACKSON INTERNATIONAL AIRPORT           |       2 |       0 |       2 |       1 |       0 |       3 |       0 |       0 |       0 |       0 |       0 |       0 |        8
+ 2023 | NC    | CHARLOTTE/DOUGLAS INTERNATIONAL AP      |       2 |       4 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        8
+ 2023 | MT    | BILLINGS LOGAN INTERNATIONAL AIRPORT    |       2 |       4 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        8
+ 2023 | CA    | SACRAMENTO INTL AIRPORT                 |       4 |       0 |       3 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        7
+ 2023 | CA    | SAN FRANCISCO INTERNATIONAL AIRPORT     |       2 |       0 |       5 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        7
+ 2023 | SC    | GREENVILLE-SPARTANBURG INTL AIRPORT     |       3 |       2 |       1 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        7
+ 2023 | WA    | SPOKANE INTERNATIONAL AIRPORT           |       1 |       4 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        6
+ 2023 | NC    | WILMINGTON INTERNATIONAL AIRPORT        |       3 |       2 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        6
+ 2023 | NV    | MCCARRAN INTERNATIONAL AIRPORT          |       3 |       3 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        6
+ 2023 | TX    | AUSTIN-BERGSTROM INTL AIRPORT           |       2 |       3 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |        6
+ 2023 | TX    | SAN ANTONIO INTERNATIONAL AIRPORT       |       1 |       1 |       1 |       1 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |        6
+ 2023 | TN    | NASHVILLE INTERNATIONAL AIRPORT         |       1 |       1 |       3 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        5
+ 2023 | AL    | BIRMINGHAM INTERNATIONAL AIRPORT        |       2 |       1 |       1 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |        5
+ 2023 | AZ    | TUCSON INTERNATIONAL AIRPORT            |       2 |       1 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        4
+ 2023 | GA    | HARTSFIELD-JACKSON ATLANTA INTL AP      |       2 |       0 |       1 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        4
+ 2023 | AZ    | PHOENIX SKY HARBOR INTL AIRPORT         |       1 |       1 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        4
+ 2023 | SC    | CHARLESTON AFB/INTERNATIONAL AIRPORT    |       0 |       1 |       0 |       1 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |        3
+ 2023 | TX    | G BUSH INTERCONTINENTAL AP/HOUSTON AP   |       1 |       0 |       1 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |        3
+ 2023 | AL    | HUNTSVILLE INTL/C.T.JONES FIELD AIRPORT |       1 |       0 |       1 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |        3
+ 2023 | FL    | PENSACOLA REGIONAL AIRPORT              |       1 |       0 |       0 |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        3
+ 2023 | CA    | FRESNO YOSEMITE INTERNATIONAL AIRPORT   |       1 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        2
+ 2023 | CA    | LOS ANGELES INTERNATIONAL AIRPORT       |       1 |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |        2
+ 2023 | CA    | ONTARIO INTERNATIONAL ARPT              |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        2
+ 2023 | CA    | SANTA BARBARA MUNICIPAL AIRPORT         |       1 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        2
+ 2023 | MS    | GULFPORT-BILOXI INTL ARPT               |       2 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        2
+ 2023 | LA    | LOUIS ARMSTRONG NEW ORLEANS INTL AP     |       1 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        2
+ 2023 | FL    | FT LAUD/HOLLYWOOD INTL APT              |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        1
+ 2023 | GA    | SAVANNAH/HILTON HEAD INTL AIRPORT       |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        1
+ 2023 | FL    | TAMPA INTERNATIONAL AIRPORT             |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        1
+ 2023 | FL    | ORLANDO INTERNATIONAL AIRPORT           |       0 |       0 |       0 |       0 |       0 |       1 |       0 |       0 |       0 |       0 |       0 |       0 |        1
+ 2023 | CA    | SAN DIEGO INTERNATIONAL AIRPORT         |       1 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        1
+ 2023 | FL    | MIAMI INTERNATIONAL AIRPORT             |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2023 | FL    | JACKSONVILLE INTERNATIONAL AIRPORT      |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2023 | HI    | KAHULUI AIRPORT                         |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2023 | HI    | HONOLULU INTERNATIONAL AIRPORT          |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2023 | HI    | LIHUE AIRPORT                           |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+ 2023 | CA    | J. WAYNE APT-ORANGE CO APT              |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |       0 |        0
+(448 rows)
+
