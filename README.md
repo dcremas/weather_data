@@ -10,7 +10,7 @@
 
 The ultimate purpose of this project was to produce a clean, historical Data Warehouse of by location, by hour observational weather data to be able to analyze the impact of baromtric pressure changes over time, and in comparison of locations.  The data  warehouse is to serve as the main repository of information to be able to explore and analyze. 
 
-![pressure_days](/images/pressure_days.jpg)
+![pressure_days](output_files/pressure_days.jpg)
 
 ##### Data Pipeline Process:
 
