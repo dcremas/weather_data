@@ -12,8 +12,7 @@ WITH data_transform_prelim AS (
 		ROUND(obs.slp::numeric - LAG(obs.slp, 6) OVER(PARTITION BY obs.station ORDER BY obs.date)::numeric, 2) AS slp_6hr_diff,
 		ROUND(obs.slp::numeric - LAG(obs.slp, 24) OVER(PARTITION BY obs.station ORDER BY obs.date)::numeric, 2) AS slp_24hr_diff
 	FROM observations obs
-	WHERE EXTRACT(YEAR from date) BETWEEN 2018 AND 2023
-		AND obs.source IN ('6', '7')
+	WHERE obs.source IN ('6', '7')
 		AND obs.report_type IN ('FM-15')
 		AND obs.slp BETWEEN 20.00 AND 35.00
 		AND obs.prp <= 10.00
@@ -76,6 +75,5 @@ SELECT
 FROM loc_subset ls
 LEFT OUTER JOIN data_aggregate da
     ON ls.station = da.station AND ls.year = da.rdg_year
-WHERE ls.year BETWEEN 2018 AND 2023
 GROUP BY ls.year, ls.state, ls.station_name, ls.lat, ls.lon
 ORDER BY ls.year, ttl_year DESC;

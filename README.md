@@ -10,6 +10,8 @@
 
 The ultimate purpose of this project was to produce a clean, historical Data Warehouse of by location, by hour observational weather data to be able to analyze the impact of baromtric pressure changes over time, and in comparison of locations.  The data  warehouse is to serve as the main repository of information to be able to explore and analyze. 
 
+![pressure_days](/Users/dustincremascoli/Documents/website/pro/images/pressure_days.jpg)
+
 ##### Data Pipeline Process:
 
 - Access a rich set of historical by year/by location csv files from the NOAA remote repository.
@@ -46,6 +48,4 @@ Not produced yet.
 
 Thank you to the National Oceanic and Atmospheric Administration for making all of your rich data available to the masses.
 
-##### License:
-
-N/A.
+##### Licen
