@@ -36,6 +36,7 @@ with open('metadata/location_data.csv', 'r', newline='') as read_file:
         except ValueError:
             continue
 
+url_ext_aws = "postgresql://dustincremascoli:mp2BrVcin8chgfxUO7vb@db-aws.cu1h5zzynwdo.us-east-2.rds.amazonaws.com:5432/weatherdata"
 url = shared_funcs.database_path()
 engine = create_engine(url=url)
 

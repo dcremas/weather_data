@@ -1,34 +1,28 @@
-import time
+import os
 from datetime import datetime
-import polars as pl
 from pyspark.sql import SparkSession
 from sqlalchemy import create_engine, insert
 from sqlalchemy.orm import Session
 from sqlalchemy.sql import text
+from dotenv import load_dotenv
 from database_ddl import Observations
 import shared_funcs
 
-year_no = 2024
+load_dotenv()
 
-# Deleting the year_no data that is currently in the Postgres Database.
-delete_start_time = time.perf_counter()
+year_no = 2019
 
-delete_query = f"DELETE FROM observations WHERE EXTRACT(YEAR from date) = {year_no};"
-url = shared_funcs.database_path('weatherdata')
-engine = create_engine(url=url)
+delete_query = f"DELETE FROM observations WHERE EXTRACT(year from date) = {year_no};"
+
+url_ext_aws = os.getenv('url_ext_aws')
+engine = create_engine(url=url_ext_aws, pool_size=5, pool_recycle=3600)
 
 with engine.connect() as connection:
     statement = text(delete_query)
     result = connection.execute(statement)
     connection.commit()
 
-delete_stop_time = time.perf_counter()
-total_delete_time = delete_stop_time - delete_start_time
-
-
-# Inserting the new year_no data into the Postgres Database.
-insert_start_time = time.perf_counter()
-
+# Inserting the new month_no data into the Render Postgres Database.
 spark = (SparkSession.builder.appName("pyspark_parquet")
          .config("spark.sql.crossJoin.enabled", "true")
          .getOrCreate())
@@ -62,22 +56,3 @@ for item in data:
 session = Session(bind=engine)
 session.execute(insert(Observations), data_clean)
 session.commit()
-
-insert_stop_time = time.perf_counter()
-total_insert_time = insert_stop_time - insert_start_time
-
-# Replicating the year_no data that is currently in the Postgres Database to a parquet file.
-replicate_start_time = time.perf_counter()
-
-connection_uri = shared_funcs.connection_uri()
-query = f"SELECT * FROM observations WHERE EXTRACT(YEAR from date) = {year_no}"
-
-polars_df = pl.read_database_uri(query=query, uri=connection_uri)
-polars_df.write_parquet(f"yearly_files_parquet/{year_no}/data_clean.parquet")
-
-replicate_stop_time = time.perf_counter()
-total_replicate_time = replicate_stop_time - replicate_start_time
-
-print(f"The total time for the Delete is: {total_delete_time:.2f} seconds.")
-print(f"The total time for the Insert is: {total_insert_time:.2f} seconds.")
-print(f"The total time for the Replicate is: {total_replicate_time:.2f} seconds.")

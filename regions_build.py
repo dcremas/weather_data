@@ -16,10 +16,11 @@ class Regions(Base):
     state = Column(String)
     region = Column(String)
     sub_region = Column(String)
+    tz_abbreviation = Column(String)
 
-
+url_ext_aws = "postgresql://dustincremascoli:mp2BrVcin8chgfxUO7vb@db-aws.cu1h5zzynwdo.us-east-2.rds.amazonaws.com:5432/apple_weatherkit"
 url = shared_funcs.database_path()
-engine = create_engine(url=url, pool_size=5, pool_recycle=3600)
+engine = create_engine(url=url_ext_aws, pool_size=5, pool_recycle=3600)
 Base.metadata.create_all(engine)
 
 with open('metadata/regions.csv', 'r', newline='') as read_file:
@@ -33,6 +34,7 @@ with open('metadata/regions.csv', 'r', newline='') as read_file:
         temp_dict["state"] = item[0]
         temp_dict["region"] = item[1]
         temp_dict["sub_region"] = item[2]
+        temp_dict["tz_abbreviation"] = item[3]
         region_data_clean.append(temp_dict)
 
 delete_query = f"DELETE FROM regions;"

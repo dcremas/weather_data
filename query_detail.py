@@ -3,7 +3,7 @@ from sqlalchemy.sql import text
 import pandas as pd
 import shared_funcs
 
-year, month, station = 2023, 10, '72530094846'
+year, month, station = 2023, 11, '72530094846'
 
 select_query = f'''
 SELECT

@@ -9,7 +9,7 @@ def download_file(url, filename):
     urllib.request.urlretrieve(url, filename)
 
 
-year_no = 2021
+year_no = 2024
 
 # Create a list of files to download
 url_path = f"https://www.ncei.noaa.gov/data/global-hourly/access/{year_no}/"
@@ -43,7 +43,7 @@ total_scrape_time = scrape_stop_time - scrape_start_time
 
 select_cols = [
     'STATION', 'DATE', 'SOURCE', 'REPORT_TYPE',
-    'WND', 'CIG', 'VIS', 'TMP', 'DEW', 'SLP', 'AA1'
+    'WND', 'CIG', 'VIS', 'TMP', 'DEW', 'SLP',
 ]
 
 # Polars Processing
