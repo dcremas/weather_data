@@ -1,11 +1,15 @@
+import os
 import csv
 from datetime import datetime
 import pandas as pd
 from sqlalchemy import create_engine, insert
 from sqlalchemy.orm import Session
 from sqlalchemy.sql import text
+from dotenv import load_dotenv
 from database_ddl import Locations
 import shared_funcs
+
+load_dotenv()
 
 df_locations = pd.read_csv("https://www.ncei.noaa.gov/pub/data/noaa/isd-history.csv")
 df_locations.to_csv("metadata/location_data.csv")
@@ -36,7 +40,7 @@ with open('metadata/location_data.csv', 'r', newline='') as read_file:
         except ValueError:
             continue
 
-url_ext_aws = "postgresql://dustincremascoli:mp2BrVcin8chgfxUO7vb@db-aws.cu1h5zzynwdo.us-east-2.rds.amazonaws.com:5432/weatherdata"
+url_ext_aws = os.getenv('url_ext_aws')
 url = shared_funcs.database_path()
 engine = create_engine(url=url)
 

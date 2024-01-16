@@ -1,8 +1,13 @@
+import os
 from datetime import datetime
 from sqlalchemy.orm import declarative_base
 from sqlalchemy import create_engine
 from sqlalchemy import Column, Integer, Float, DateTime, String
+from dotenv import load_dotenv
 import shared_funcs
+
+load_dotenv()
+
 
 Base = declarative_base()
 
@@ -45,7 +50,7 @@ class Locations(Base):
     end = Column(DateTime)
     timestamp = Column(DateTime, default=datetime.now())
 
-url_ext_aws = "postgresql://dustincremascoli:mp2BrVcin8chgfxUO7vb@db-aws.cu1h5zzynwdo.us-east-2.rds.amazonaws.com:5432/weatherdata"
+url_ext_aws = os.getenv('url_ext_aws')
 url = shared_funcs.database_path()
 engine = create_engine(url=url, pool_size=5, pool_recycle=3600)
 Base.metadata.create_all(engine)
