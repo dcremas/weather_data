@@ -1,9 +1,13 @@
+import os
 import csv
 from sqlalchemy.orm import declarative_base, Session
 from sqlalchemy import create_engine, insert
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.sql import text
+from dotenv import load_dotenv
 import shared_funcs
+
+load_dotenv()
 
 Base = declarative_base()
 
@@ -18,7 +22,7 @@ class Regions(Base):
     sub_region = Column(String)
     tz_abbreviation = Column(String)
 
-url_ext_aws = "postgresql://dustincremascoli:mp2BrVcin8chgfxUO7vb@db-aws.cu1h5zzynwdo.us-east-2.rds.amazonaws.com:5432/apple_weatherkit"
+url_ext_aws = os.getenv('url_ext_aws')
 url = shared_funcs.database_path()
 engine = create_engine(url=url_ext_aws, pool_size=5, pool_recycle=3600)
 Base.metadata.create_all(engine)
